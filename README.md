@@ -13,7 +13,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 
     <ol type="a">
       <li> Ticket Properties</li>
-      <li> SLAs(Service Level Agreement)</li>
+      <li> SLAs(Service Level Agreements)</li>
       <li> Departments</li>
       <li> Permissions</li>
       <li> Users</li>
