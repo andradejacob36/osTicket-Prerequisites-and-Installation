@@ -34,17 +34,16 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 
 - Step 1: You need to authenticate and authorize yourself by logging into the Azure portal.
 - Step 2: Create a Resource Group.
-- Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible).
-- Step 4: Configure the VM settings, including size, region, and security rules.
-- Step 5: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP).
-- Step 6: Install osTicket on the VM instance using the command-line interface.
-- Step 7: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
-- Step 8: Navigate to the osTicket web interface and log in using the administrator credentials.
-- Step 9: Configure the help desk settings, including the department, email settings, and user accounts.
-- Step 10: Set up the email integration by specifying the email server, email account credentials, and notification settings.
-- Step 11: Test the help desk system by creating a test ticket and verifying that it is received and processed correctly.
-- Step 12: Manage tickets by logging in to the osTicket web interface and viewing, replying to, and closing tickets as necessary.
-- Step 13: Optionally, customize the osTicket instance by modifying the templates, themes, and other settings as desired.
+- Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications.
+- Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP).
+- Step 5: Install osTicket on the VM instance using the command-line interface.
+- Step 6: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
+- Step 7: Navigate to the osTicket web interface and log in using the administrator credentials.
+- Step 8: Configure the help desk settings, including the department, email settings, and user accounts.
+- Step 9: Set up the email integration by specifying the email server, email account credentials, and notification settings.
+- Step 10: Test the help desk system by creating a test ticket and verifying that it is received and processed correctly.
+- Step 11: Manage tickets by logging in to the osTicket web interface and viewing, replying to, and closing tickets as necessary.
+- Step 12: Optionally, customize the osTicket instance by modifying the templates, themes, and other settings as desired.
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
@@ -82,7 +81,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 
 - Note: By creating a Resource Group, you'll have a container to contain all your related resources in a single place.
 
-<h2>Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible)</h2>
+<h2>Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications</h2>
 
 1. Again, click on the "Seach resources, services, docs (G+/)"
 2. In the search bar, type "Virtual Machines"
