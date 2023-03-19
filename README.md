@@ -3,32 +3,25 @@
 </p>
 
 <h1>osTicket Help Desk Implementation</h1>
-This tutorial will demonstrate how to build a help desk system using osTicket(From Scratch!). This will also teach you how to set up the system and manage tickets<br/>
+This tutorial will demonstrate how to build a help desk system using osTicket from scratch! This will also teach you how to set up the system and manage tickets<br/>
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machine/Resource Group)
 - Remote Desktop
 - osTicket (open-source ticketing system)
 
-    <ol type="a">
-      <li> Ticket Properties</li>
-      <li> SLAs(Service Level Agreements)</li>
-      <li> Departments</li>
-      <li> Permissions</li>
-      <li> Users</li>
-    </ol>
-
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2) 
+- Windows 10 Pro, version 21H2(free services eligible)</b> 
 
-<h2>Ticket Lifecycle Stages</h2>
+<h2>What You Will Learn</h2>
 
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
+- Ticket Properties
+- SLAs(Service Level Agreements)
+- Departments
+- Permissions
+- Users
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
@@ -114,3 +107,22 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 7. Click on the "Create" button to create the virtual machine. (Note: It should take up 1-2 minutes to process the VM)
 
 8. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
+
+<h2>Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP)</h2>
+
+1. Click on the "Seach resources, services, docs (G+/)"
+
+2. In the search bar, type "Virtual Machines"
+
+3. After creating your VM, you should be able to click "vm-osticket"
+
+4. On the "Overview" tab, find/copy the Public IP Address located within the Essentials category.
+
+5. If you are using a computer that has Windows then click the "Start" Button located at the bottom-left corner and search for "Remote Desktop Connection".
+- Note: For Mac User's you will have to download "remote- Microsoft Remote Desktop" from the App Store. 
+
+6. Paste the Public IP Address on the computer name field and click "Connect"
+- Note : For Mac User's you'll need to paste the IP Address on "PC-name" and click "add"
+
+7. In order to log-in to the VM, make sure to use your creditials from Step 3. (Ex: Username: labuser/Password: Your unique password).
+
