@@ -21,7 +21,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)   (Edit Later)
+- Windows 10</b> (21H2) 
 
 <h2>Ticket Lifecycle Stages</h2>
 
