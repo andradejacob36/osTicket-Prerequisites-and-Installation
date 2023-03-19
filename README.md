@@ -11,6 +11,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 - Remote Desktop
 - osTicket (open-source ticketing system)
 
+    <ol type="a">
+      <li> Ticket Properties</li>
+      <li> SLAs(Service Level Agreement)</li>
+      <li> Departments</li>
+      <li> Permissions</li>
+      <li> Users</li>
+    </ol>
+
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)   (Edit Later)
