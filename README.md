@@ -106,7 +106,9 @@ This tutorial will demonstrate how to build a help desk system using osTicket(Fr
 </p>
 <p>  
     
-5. Before you move on to Step 6, Locate the check box at the left-lower corner of the website and click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm.")
+- Note: Remember to keep your username and the password you created in your notes, as you will need them later.
+
+5. Locate the check box at the bottom-left corner of the website and click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm.")
 
 6. Click on the "Review + create" button and review the settings.
 
