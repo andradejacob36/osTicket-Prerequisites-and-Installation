@@ -10,7 +10,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Microsoft Azure (Virtual Machine/Resource Group)
 - Remote Desktop
 - osTicket (open-source ticketing system)
-
+- IIS (Internet Information Services)
 <h2>Operating Systems Used </h2>
 
 - Windows 10 Pro, version 21H2(free services eligible)</b> 
