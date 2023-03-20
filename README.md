@@ -29,7 +29,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Step 2: Create a Resource Group.
 - Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications.
 - Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP).
-- Step 5: Install osTicket on the VM instance using the command-line interface.
+- Step 5: Install osTicket on the VM.
 - Step 6: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
 - Step 7: Navigate to the osTicket web interface and log in using the administrator credentials.
 - Step 8: Configure the help desk settings, including the department, email settings, and user accounts.
@@ -64,7 +64,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 4. After, typing your desired specifications click on the box "Review + create" 
 
-5. You should be avaible to see the following display:
+5. You should be able to see the following display:
 <p>
 <img src="https://i.imgur.com/lpBisFO.png" height="80%" width="80%"/>
 </p>
@@ -98,7 +98,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 </p>
 <p>  
     
-- Note: Remember to keep your username and the password you created in your notes, as you will need them later.
+- Note: Remember to keep your username and password you created in your notes, as you will need them later.
 
 5. Locate the check box at the bottom-left corner of the website and click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm.")
 
@@ -118,11 +118,31 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 4. On the "Overview" tab, find/copy the Public IP Address located within the Essentials category.
 
-5. If you are using a computer that has Windows then click the "Start" Button located at the bottom-left corner and search for "Remote Desktop Connection".
-- Note: For Mac User's you will have to download "remote- Microsoft Remote Desktop" from the App Store. 
+-Note: See the image below: 
 
-6. Paste the Public IP Address on the computer name field and click "Connect"
-- Note : For Mac User's you'll need to paste the IP Address on "PC-name" and click "add"
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
 
-7. In order to log-in to the VM, make sure to use your creditials from Step 3. (Ex: Username: labuser/Password: Your unique password).
+5. For Windows users click the "Start" Button(Windows logo) located at the bottom-left corner and search for "Remote Desktop Connection". (Note: For Mac Users download the app "remote- Microsoft Remote Desktop" from the App Store.)
+
+6. Paste the Public IP Address on the computer name field and click "Connect". (Note: For Mac User's paste the IP Address on "PC-name" and click "add")
+
+7. Afterwards make sure to log-in your user's/password's creditial from Step 3. (Ex: Username: labuser/Password: Your unique password).
+
+ 8. Choose the options for "Choose privacy settings for your device": 
+
+    <ol type="a">
+      <li>Location: No </li>
+      <li>Diagnostic Data: No</li>
+      <li>Tailored experiences: No</li>
+      <li>Find my device: No</li>
+     <li>Inking and Typing: No</li>
+     <li>Advertising ID: No</li>
+    </ol>
+
+9. Click "Accept"
+
+<h2>Step 5: Install osTicket on the VM.</h2>
 
