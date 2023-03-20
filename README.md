@@ -80,7 +80,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 2. In the search bar, type "Virtual Machines"
 3. Click on the "+ Create" button located on the right top corner by "Switch to classic".
 4. Choose the option "Azure virtual machine", enter the following information:
-
     <ol type="a">
       <li>Choose your subscription.</li>
       <li>Create a name for resource group(Use: RG-osTicket)</li>
@@ -139,7 +138,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 <p>  
  
 8. Choose the options for "Choose privacy settings for your device": 
-
     <ol type="a">
       <li>Location: No </li>
       <li>Diagnostic Data: No</li>
