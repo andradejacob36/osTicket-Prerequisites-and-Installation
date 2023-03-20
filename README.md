@@ -154,7 +154,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 <h2>Step 5: Install osTicket on the VM</h2>
 
 1. Install/Enable CGI on IIS. Do the following: 
-
     <ol type="a">
       <li>Right click the "Start" Button (Windows logo) and click "Run"</li>
       <li>Type "control" for control panel</li>
@@ -170,3 +169,16 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 - Note by Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, IIS would not be able to run the PHP scripts that OSTicket uses to generate dynamic content, and the application would not work properly
 
+2. Download/Install PHP Manager for IIS  
+    <ol type="a">
+      <li>Download PHP Manager from the following link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view </li>
+      <li></li>
+      <li></li>
+      <li></li>
+     <li></li>
+     <li></li>
+      <li></li>
+      <li</li>
+       <li></li>
+       <li></li>
+    </ol>
