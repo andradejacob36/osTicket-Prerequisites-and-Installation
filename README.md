@@ -118,20 +118,27 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 4. On the "Overview" tab, find/copy the Public IP Address located within the Essentials category.
 
--Note: See the image below: 
+- Note: See the image below: 
 
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/k30oAxe.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-5. For Windows users click the "Start" Button(Windows logo) located at the bottom-left corner and search for "Remote Desktop Connection". (Note: For Mac Users download the app "remote- Microsoft Remote Desktop" from the App Store.)
+5. For Windows users click the "Start" Button (Windows logo) located at the bottom-left corner and search for "Remote Desktop Connection". (Note: For Mac Users download the app "remote- Microsoft Remote Desktop" from the App Store.)
 
 6. Paste the Public IP Address on the computer name field and click "Connect". (Note: For Mac User's paste the IP Address on "PC-name" and click "add")
 
 7. Afterwards make sure to log-in your user's/password's creditial from Step 3. (Ex: Username: labuser/Password: Your unique password).
 
- 8. Choose the options for "Choose privacy settings for your device": 
+- Note: For Windows Users click "yes" to connect to the remote computer. Observe the following display:
+ 
+<p>
+<img src="https://i.imgur.com/xHG3t9h.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+8. Choose the options for "Choose privacy settings for your device": 
 
     <ol type="a">
       <li>Location: No </li>
