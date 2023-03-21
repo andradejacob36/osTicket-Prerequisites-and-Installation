@@ -194,3 +194,17 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
     
 - Note: the purpose of "PHP" folder within C:\PHP is to unzip the contents of the following program PHP 7.3.8
 
+5. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+     <ol type="a">
+      <li> Download PHP 7.3.8 from the following link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view </li>
+      <li> Go to Downloads on File Explorer </li>
+      <li> Right click on "php-7.3.8" and click on "Extract All" </li>
+      <li> On the panel, "Extract Compressed (Zipped) Folders" click on "Browse" </li>
+      <li> Redo direction from 4A & 4B</li>
+      <li> Double Click on "PHP" folder </li>
+      <li> At the right bottom corner of "Selection a destination", click on "Select Folder" </li>
+      <li> You should have the following display</li>
+      <li> Click on "Extract" </li>
+    </ol>
+    
+- Note: You need to download PHP 7.3.8 and unzip the contents into C:\PHP for osticket because it is a requirement for running PHP scripts on your web server.
