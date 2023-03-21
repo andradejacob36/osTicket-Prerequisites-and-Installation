@@ -216,3 +216,16 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
     </ol>
 
 - Note: Downloading & installing VC_redist.x86.exe is necessary to ensure that osTicket can run on your computer without any issues
+
+7. Download/Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+     <ol type="a">
+      <li>  Download VC_redist.x86.exe from the following link: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view </li>
+      <li> Repeat previous directions from 2B & 2C for "MySQL 5.5.62 </li>
+      <li> After agreeing to "End User License Agreement". You will see the following display: </li>      
+      <li> Click for the "Typical" option.</li>
+      <li> Afterwards, install the application</li>
+      <li> Click "Finish" </li>
+      <li> Afterwards, install the application</li>
+      <li> Afterwards, install the application</li>
+      <li> Stopped @9:40  </li>
+    </ol>
