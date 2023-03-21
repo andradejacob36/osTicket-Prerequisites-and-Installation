@@ -214,3 +214,5 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li>  Download VC_redist.x86.exe from the following link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view </li>
       <li> Repeat previous directions from 2B, 2C, & 2D for "VC_redist.x86.exe" </li>
     </ol>
+
+- Note: Downloading & installing VC_redist.x86.exe is necessary to ensure that osTicket can run on your computer without any issues
