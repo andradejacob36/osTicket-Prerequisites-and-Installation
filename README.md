@@ -172,6 +172,13 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li>Download PHP Manager from the following link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view </li>
       <li>After downloading PHP Manager, go to File Explorer</li>
       <li>Double click "PHPManagerForIIS_V1.5.0 from the "Download" section</li>
-      <li>By double clicking the program, you should be able to complete the instalation after accepting the License Agreement</li>
+      <li>By double clicking the program, you should be able to complete the installation after accepting the License Agreement</li>
     </ol>
 - Note: You need to download and install PHP Manager for IIS when using osticket system because it simplifies the process of installing and configuring PHP on IIS, which is required for osticket to run properly
+
+3. Download/Install Rewrite Module 
+    <ol type="a">
+      <li>Download Rewrite Module from the following link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view </li>
+      <li>Repeat previous directions from 2B, 2C, & 2D for "rewrite_amd64_en-US" </li>
+    </ol>
+- Note: the purpose of downloading and installing the Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation by enabling you to rewrite URLs in a way that makes them more user-friendly and descriptive
