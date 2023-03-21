@@ -182,3 +182,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li>Repeat previous directions from 2B, 2C, & 2D for "rewrite_amd64_en-US" </li>
     </ol>
 - Note: the purpose of downloading and installing the Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation by enabling you to rewrite URLs in a way that makes them more user-friendly and descriptive
+
+4. Create the directory C:\PHP
+     <ol type="a">
+      <li> On File Explorer, click "This PC" </li>
+      <li> Proceed By clicking Windows (C:) </li>
+      <li> You should be able to see the following display (C:) </li>
+      <li> Right click, and click on "New" to create a folder  </li>
+      <li> Name the folder to "PHP" </li>
+    </ol>
+    
+- Note: the purpose of "PHP" folder within C:\PHP is to unzip the contents of the following program PHP 7.3.8
+
