@@ -165,18 +165,13 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
        <li>Now, open up Microsoft Edge and type on the URL "127.0.0.1 (To verify your webserver is up & running"</li>
     </ol>
 
-- Note by Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, IIS would not be able to run the PHP scripts that OSTicket uses to generate dynamic content, and the application would not work properly
+- Note by Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly
 
 2. Download/Install PHP Manager for IIS  
     <ol type="a">
       <li>Download PHP Manager from the following link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view </li>
-      <li></li>
-      <li></li>
-      <li></li>
-     <li></li>
-     <li></li>
-      <li></li>
-      <li</li>
-       <li></li>
-       <li></li>
+      <li>After downloading PHP Manager, go to File Explorer</li>
+      <li>Double click "PHPManagerForIIS_V1.5.0 from the "Download" section</li>
+      <li>By double clicking the program, you should be able to complete the instalation after accepting the License Agreement</li>
     </ol>
+- Note: You need to download and install PHP Manager for IIS when using osticket system because it simplifies the process of installing and configuring PHP on IIS, which is required for osticket to run properly
