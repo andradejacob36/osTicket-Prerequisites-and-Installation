@@ -234,3 +234,19 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
     </ol>
 
 - Note: The reason why you need to download and install this specific version of MySQL is because osticket was designed to work with it. Installing a different version of MySQL or a different database management system altogether may cause compatibility issues and may prevent osticket from functioning properly.
+
+8. Open IIS as an Admin & Register PHP from within IIS
+     <ol type="a">
+      <li> At the bottom left corner, click on Windows Button </li>
+      <li>  Type "ISS" </li>
+      <li> Before going to "Internet Information Services(IIS) Manager App, right click it and pick "Run as administrator" </li>
+      <li> You should see the following Display: </li>
+      <li> Double click "PHP Manager" </li>
+      <li> To enable PHP Manager, click "Register new PHP version" </li>
+      <li> click the following button:  </li>
+      <li> Double click PHP folder and click "php-cgi" </li>
+      <li> At the right bottom corner, click "Open" </li>
+      <li> Go back to vm-osticket Home, by clicking the server "vm-osticket\lab..." </li>
+      <li> Then restart the server by clicking "Restart" located at the right side of the panel under Manage Server</li>
+      <li> </li>
+    </ol>
