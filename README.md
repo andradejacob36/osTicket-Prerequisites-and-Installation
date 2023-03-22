@@ -222,10 +222,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li>  Download VC_redist.x86.exe from the following link: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view </li>
       <li> Repeat previous directions from 2B & 2C for "MySQL 5.5.62 </li>
       <li> After agreeing to "End User License Agreement". You will see the following display: </li>      
-      <li> Click for the "Typical" option.</li>
+      <li> Click "Typical".</li>
       <li> Afterwards, install the application</li>
       <li> Click "Finish" </li>
-      <li> Afterwards, install the application</li>
-      <li> Afterwards, install the application</li>
-      <li> Stopped @9:40  </li>
+      <li> Click "Next" on "Welcome to the MySQL Server Instance Configuration Wizard 1.0.17.0"</li>
+      <li>Choose "Standard Configuration" Show an image with highlight</li>
+      <li>Click "Next" until you see the following image:   </li>
+      <li> Create "New root password" and retype it(Ex:Password10) </li>
+      <li> Click "Next" and afterwards click "Execute"  </li>
+      <li> Once the download it complete click "finish" </li>
     </ol>
+
+- Note: The reason why you need to download and install this specific version of MySQL is because osticket was designed to work with it. Installing a different version of MySQL or a different database management system altogether may cause compatibility issues and may prevent osticket from functioning properly.
