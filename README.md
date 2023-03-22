@@ -29,14 +29,16 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Step 2: Create a Resource Group.
 - Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications.
 - Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP).
-- Step 5: Install osTicket on the VM.
-- Step 6: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
-- Step 7: Navigate to the osTicket web interface and log in using the administrator credentials.
-- Step 8: Configure the help desk settings, including the department, email settings, and user accounts.
-- Step 9: Set up the email integration by specifying the email server, email account credentials, and notification settings.
-- Step 10: Test the help desk system by creating a test ticket and verifying that it is received and processed correctly.
-- Step 11: Manage tickets by logging in to the osTicket web interface and viewing, replying to, and closing tickets as necessary.
-- Step 12: Optionally, customize the osTicket instance by modifying the templates, themes, and other settings as desired.
+- Step 5: Download/Install the following applications: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62
+- Step 6: Open IIS as an Admin & Register PHP from within IIS
+- Step 7: Install osTicket on the VM.
+- Step 8: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
+- Step 9: Navigate to the osTicket web interface and log in using the administrator credentials.
+- Step 10: Configure the help desk settings, including the department, email settings, and user accounts.
+- Step 11: Set up the email integration by specifying the email server, email account credentials, and notification settings.
+- Step 12: Test the help desk system by creating a test ticket and verifying that it is received and processed correctly.
+- Step 13: Manage tickets by logging in to the osTicket web interface and viewing, replying to, and closing tickets as necessary.
+- Step 14: Optionally, customize the osTicket instance by modifying the templates, themes, and other settings as desired.
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
@@ -149,7 +151,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 9. Click "Accept"
 
-<h2>Step 5: Install osTicket on the VM</h2>
+<h2>Step 5: Download/Install the following applications: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62</h2>
 
 1. Install/Enable CGI on IIS. Do the following: 
     <ol type="a">
@@ -235,14 +237,20 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 - Note: The reason why you need to download and install this specific version of MySQL is because osticket was designed to work with it. Installing a different version of MySQL or a different database management system altogether may cause compatibility issues and may prevent osticket from functioning properly.
 
-8. Open IIS as an Admin & Register PHP from within IIS
-     <ol type="a">
-      <li> At the bottom left corner, click on Windows Button </li>
-      <li>  Type "ISS" </li>
-      <li> Before going to "Internet Information Services(IIS) Manager App, right click it and pick "Run as administrator" </li>
-      <li> You should see the following Display: </li>
-      <li> Double click "PHP Manager" </li>
-      <li> To enable PHP Manager, click "Register new PHP version" </li>
+<h2>Step 6: Open IIS as an Admin & Register PHP from within IIS</h2>
+1. At the bottom left corner, click on Windows Button
+2. Type "ISS"
+3. Before going to "Internet Information Services(IIS) Manager App, right click it and pick "Run as administrator"
+4. You should see the following Display: 
+5. Double click "PHP Manager"
+6. To enable PHP Manager, click "Register new PHP version"
+7.
+8.
+9.
+10.
+11.
+
+
       <li> click the following button:  </li>
       <li> Double click PHP folder and click "php-cgi" </li>
       <li> At the right bottom corner, click "Open" </li>
