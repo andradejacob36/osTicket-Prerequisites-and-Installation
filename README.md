@@ -249,3 +249,4 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> Go back to vm-osticket Home, by clicking the server "vm-osticket\lab..." </li>
       <li> Then restart the server by clicking "Restart" located at the right side of the panel under Manage Server</li>
     </ol>
+- Note: opening IIS as an administrator and registering PHP with IIS are necessary steps to configure IIS to work with osticket. This allows IIS to understand and process PHP files, which are required to run osticket on a Windows server
