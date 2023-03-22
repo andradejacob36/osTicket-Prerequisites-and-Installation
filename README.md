@@ -248,5 +248,4 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> At the right bottom corner, click "Open" </li>
       <li> Go back to vm-osticket Home, by clicking the server "vm-osticket\lab..." </li>
       <li> Then restart the server by clicking "Restart" located at the right side of the panel under Manage Server</li>
-      <li> </li>
     </ol>
