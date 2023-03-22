@@ -246,3 +246,5 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Note: opening IIS as an administrator and registering PHP with IIS are necessary steps to configure IIS to work with osticket. This allows IIS to understand and process PHP files, which are required to run osticket on a Windows server
 
 <h2>Step 7: Install osTicket on the VM</h2>
+
+1. Stopped at 12:15
