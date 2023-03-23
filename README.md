@@ -247,4 +247,23 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 <h2>Step 7: Install osTicket on the VM</h2>
 
-1. Stopped at 12:15
+1. Download osTicket-v1.15.8.zip from the following link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+2. Extract and copy "upload" folder to c:\inetpub\wwwroot
+     <ol type="a">
+      <li> Open windows file explorer and have it open on "This PC" and double click on "Windows (C:)"</li>
+      <li> Double click on "inetpub" folder and then proceed by double clicking on "wwwroot" </li>      
+      <li> Separately, open another Windows file explorer and go to Downloads</li>
+      <li> Then double click on "osTicket-v1.15.8" zip file</li>
+      <li> Now have both Windows File Explorers available to drag "upload" folder to wwwwroot </li>
+      <li> See the following display li>
+      <li>On the wwwroot file folder, change rename "upload" to "osTicket"</li>
+    </ol>
+    
+3. Reload ISS (Open IIS, Stop and Start the server) 
+     <ol type="a">
+      <li> Go back to the Internet Information Services(IIS) Manager App and Repeat instructions 10 & 11 from Step 6</li>
+      <li> On the upper left corner, under "Connections", click on "Sites" and then "os-Ticket" file </li>
+      <li> Then on the upper-right corner, under "Manage Folder", click on "Browse *:80"</li>
+      <li> You should have the following display open</li>
+    </ol> 
+- Note: If you don't have this browser open, then you will have to redo all of the steps from 1-7 or figure out what you did wrong/fix the issue)
