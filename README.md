@@ -255,13 +255,13 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> Separately, open another Windows file explorer and go to Downloads</li>
       <li> Then double click on "osTicket-v1.15.8" zip file</li>
       <li> Now have both Windows File Explorers available to drag "upload" folder to wwwwroot </li>
-      <li> See the following display li>
+      <li> See the following display </li>
       <li>On the wwwroot file folder, change rename "upload" to "osTicket"</li>
     </ol>
     
 3. Reload ISS (Open IIS, Stop and Start the server) 
      <ol type="a">
-      <li> Go back to the Internet Information Services(IIS) Manager App and Repeat instructions 10 & 11 from Step 6</li>
+      <li> Go back to the Internet Information Services(IIS) Manager App and Repeat instructions 10 & 11 from Step 6 </li>
       <li> On the upper left corner, under "Connections", click on "Sites" and then "os-Ticket" file </li>
       <li> Then on the upper-right corner, under "Manage Folder", click on "Browse *:80"</li>
       <li> You should have the following display open</li>
