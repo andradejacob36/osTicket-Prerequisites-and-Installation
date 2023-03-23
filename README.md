@@ -267,3 +267,5 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> You should have the following display open</li>
     </ol> 
 - Note: If you don't have this browser open, then you will have to redo all of the steps from 1-7 or figure out what you did wrong/fix the issue)
+
+4. Enable extensions for Osticket Installer on ISS. 
