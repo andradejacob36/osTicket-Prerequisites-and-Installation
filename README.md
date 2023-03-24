@@ -269,3 +269,27 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Note: If you don't have this browser open, then you will have to redo all of the steps from 1-7 or figure out what you did wrong/fix the issue)
 
 4. Enable extensions for Osticket Installer on ISS. 
+     <ol type="a">
+      <li> Return to Internet Information Services(IIS) Manager App and at the upper-left corner, under "Connections", click on "vm-osticket" </li>
+      <li> Then proceed by clicking "Sites" and afterwards "Osticket" </li>
+      <li> Click on "PHP Manager" which is located between "Output Caching" and "Request Filtering"</li>
+      <li> Under PHP Extensions, click on "Enable or disable an extension" </li>
+      <li> It should look like this </li>
+      <li> Look for php_imap.dll, php_intl.dll, & php_opcache.dll</li>
+      <li> One by one you should be able to enable them by clicking "Enable" located at the upper right corner, under "actions"</li>
+      <li> Go back to Osticket Installer site and refresh the it, and observe the changes.</li>
+      <li> You should see the difference here: show two picture after and before</li>
+    </ol> 
+5. Rename: ost-config.php
+     <ol type="a">
+      <li> Go to File Explorer; then to "This Pc", "Windows (C:)", "inetpub", "wwwroot, osTicket </li>
+      <li> </li>
+      <li></li>
+      <li></li>
+      <li>  </li>
+      <li></li>
+      <li> </li>
+      <li> </li>
+      <li></li>
+    </ol> 
+   
