@@ -13,7 +13,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - IIS (Internet Information Services)
 - PHP
 - MySQL 5.5.62
-- 
+- HeidiSQL
 <h2>Operating Systems Used </h2>
 
 - Windows 10 Pro, version 21H2(free services eligible)</b> 
