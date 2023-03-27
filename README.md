@@ -284,8 +284,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
     </ol> 
 5. Rename: ost-config.php
      <ol type="a">
-      <li> Go to File Explorer; then to "This Pc", "Windows (C:)", "inetpub", "wwwroot, osTicket </li>
-      <li> </li>
+      <li> Go to File Explorer; then to "This Pc", "Windows (C:)", "inetpub", "wwwroot", "osTicket", and "Include"</li>
+      <li> Scroll down to find "Ost-sampleconfig.php" and by right-clicking it rename it to "ost-config-php"</li>
       <li></li>
       <li></li>
       <li>  </li>
@@ -294,4 +294,17 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> </li>
       <li></li>
     </ol> 
-   
+6. Assign Permissions:: ost-config.php
+     <ol type="a">
+      <li> Again right click "ost-config.php" and click on "Properties" and then go to "Security"</li>
+      <li> Below "Permissions for SYSTEM" click on "Advanced" </li>
+      <li> Click on "Disable inheritance" from the following display:</li>
+      <li> Click "Remove all inherited permissions fomr this object"</li>
+      <li> Click "add" </li>
+      <li> Select "Select a principle" </li>
+      <li> On the "Enter the object name to object" type "everyone" </li>
+      <li> Click "Check Names", then "Okay" </li>
+      <li> check on the box "Full control", then "Okay"</li>
+      <li> Click okay for "Advanced Security Settings" and click "Apply"</li>
+    </ol> 
+7. 
