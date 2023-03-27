@@ -325,23 +325,33 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> Go back to OSTicket Installer and click "Continue" at the bottom of the installation page</li>
       <li> Under System Settings, on "Helpdesk Name", & "Default Email",  type your desired name/email </li>
       <li> Under Admin User, type your desired "First Name", "Last Name", & "Email Address" </li>
-      <li> </li>
-      <li></li>
-      <li></li>
-      <li>  </li>
-      <li></li>
-      <li> Under Database Settings, on "MySQL Database" type "OsTicket"(Name created from HeidiSQL) </li>
-      <li> </li>
-      <li></li>
+      <li> For this Username use: user_admin & Password use: Password1 </li>
+      <li> Under Database Settings, on "MySQL Database", "MySQL Username", & "MySQL Password" put the following info as:"OsTicket"(Name created from HeidiSQL), "root", (from), & "Password1"(from) </li>
 - Note: Make sure you save this information on your notepad just in case if we need this info later on.
+      <li> At the bottom click "Install Now"</li>  
+      <li> If successful you should see the following display: </li>    
     </ol> 
-    
-  9. 
+
+9. Before you use Osticket, we need to Clean Up first  
      <ol type="a">
-      <li></li>
-      <li>  </li>
-      <li></li>
-      <li> </li>
-      <li> </li>
-      <li></li>
+      <li> go back to osTicket Folder on File Explorer </li>
+      <li> From "This PC" go to "inetpub, "wwwroot", and "osticket </li>
+    <li> You should see the following display:  </li>
+      <li> Right- click on "setup" and "Delete" it </li>
+      <li> Inside of C:\inetpub\wwwroot\osTicket\include\ost-config.php reset the permissions back to ost-config.php</li>
+      <li> Find "ost-config.php" and right click on it to "Properties"</li>
+        <li> Go to Security</li>
+        <li>under Permissions for Eveyone, click on "Advanced" </li>
+        <li> click the following: " Allow Eveyone". Afterwards "Edit" </li>
+        <li> See the following image: </li>
+        <li> Uncheck the following: "Full control", "Modify", & "Write"</li>
+        <li> click "Okay". Then click "Apply". Afterwards click "Okay". </li>
+    </ol> 
+10. Congrats, hopefully the Osticket app is installed with no errors!
+     <ol type="a">
+      <li> Browse to your help desk login page:  http://localhost/osTicket/scp/login.php  
+</li>
+      <li> Type in your Email or Username & Password.(From Intruction D Step 8)</li>
+      <li> Wallah! You should see the following:  </li>
+      <li> Congrats of having it working!</li>
     </ol> 
