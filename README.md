@@ -17,14 +17,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 - Windows 10 Pro, version 21H2(free services eligible)</b> 
 
-<h2>What You Will Learn</h2>
-
-- Ticket Properties
-- SLAs(Service Level Agreements)
-- Departments
-- Permissions
-- Users
-
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: You need to authenticate and authorize yourself by logging into the Azure portal.
