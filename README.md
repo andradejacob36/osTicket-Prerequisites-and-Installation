@@ -31,7 +31,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Step 7: Install osTicket on the VM.
 - Step 8: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
 - Step 9: Navigate to the osTicket web interface and log in using the administrator credentials.
-- Step 10: Configure the help desk settings, including the department, email settings, and user accounts.
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
