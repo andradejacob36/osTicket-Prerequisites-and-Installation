@@ -307,4 +307,41 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li> check on the box "Full control", then "Okay"</li>
       <li> Click okay for "Advanced Security Settings" and click "Apply"</li>
     </ol> 
-7. 
+7. Download/Install HeidiSQL
+     <ol type="a">
+      <li> Nagivate to this link to download it: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
+      <li> Go to "Downloads" on File Explorer. Also, Double click HeidiSQL to set it up </li>
+      <li> After agreeing the License Agreement, keep clicking next until you see the install option</li>
+      <li> Click "install". After that is finished click on "Finish" </li>
+      <li> You should see the following display: </li>
+      <li> At bottom left corner click on "New". Do not click on the down arrow button.</li>
+      <li> For the "User" name remember it is "root" and for password it is "Password1" </li>
+      <li> At the bottom click on "Open"  </li>
+      <li> Right-click on "Unnamed", click on "Create new" and click on "Database" </li>
+      <li> On the panel "Create database". Type "osTicket" on "Name". Click "Okay" </li>
+    </ol> 
+8. Continue Setting up osTicket Installer in the browser
+     <ol type="a">
+      <li> Go back to OSTicket Installer and click "Continue" at the bottom of the installation page</li>
+      <li> Under System Settings, on "Helpdesk Name", & "Default Email",  type your desired name/email </li>
+      <li> Under Admin User, type your desired "First Name", "Last Name", & "Email Address" </li>
+      <li> </li>
+      <li></li>
+      <li></li>
+      <li>  </li>
+      <li></li>
+      <li> Under Database Settings, on "MySQL Database" type "OsTicket"(Name created from HeidiSQL) </li>
+      <li> </li>
+      <li></li>
+- Note: Make sure you save this information on your notepad just in case if we need this info later on.
+    </ol> 
+    
+  9. 
+     <ol type="a">
+      <li></li>
+      <li>  </li>
+      <li></li>
+      <li> </li>
+      <li> </li>
+      <li></li>
+    </ol> 
