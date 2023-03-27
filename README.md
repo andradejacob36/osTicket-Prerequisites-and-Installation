@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket: Prerequisites and Installation</h1>
-This tutorial will demonstrate how to build a help desk system using osTicket from scratch! This will also teach you how to set up the system and manage tickets<br/>
+This tutorial will demonstrate how to build a help desk system using osTicket from scratch! Before installing it, This will also teach you how to set up the pre-requirements for the Osticket installation<br/>
 
 <h2>Environments and Technologies Used</h2>
 
