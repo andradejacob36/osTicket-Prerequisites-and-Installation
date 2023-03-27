@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket Help Desk Implementation</h1>
+<h1>osTicket: Prerequisites and Installation</h1>
 This tutorial will demonstrate how to build a help desk system using osTicket from scratch! This will also teach you how to set up the system and manage tickets<br/>
 
 <h2>Environments and Technologies Used</h2>
