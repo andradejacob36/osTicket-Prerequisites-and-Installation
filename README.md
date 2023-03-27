@@ -24,8 +24,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 - Step 1: You need to authenticate and authorize yourself by logging into the Azure portal.
 - Step 2: Create a Resource Group.
-- Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications.
-- Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP).
+- Step 3: Create a virtual machine using Azure and some given specifications.
+- Step 4: Configure remote access to the virtual machines using Remote Desktop Protocol (RDP).
 - Step 5: Download/Install these applications: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62
 - Step 6: Open IIS as an Admin & Register PHP from within IIS
 - Step 7: Install osTicket on the VM.
@@ -59,7 +59,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 3. After, typing your desired specifications click on the box "Review + create".
 4. You should be able to see the following display:
-
 <p>
 <img src="https://i.imgur.com/ILYejQz.png" height="80%" width="80%"/>
 </p>
@@ -69,44 +68,36 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
  
 - Note: By creating a Resource Group, it would be like creating a container that will hold all of your related resources in one centralized location.
 
- 
- 
- 
- 
- 
- 
-<h2>Step 3: Create a virtual machine using Windows 10 Pro, version 21H2 (free services eligible) and your desired specifications</h2>
+<h2>Step 3: Create a virtual machine using Azure and some given specifications</h2>
 
 1. Again, click on the search bar and type "Virtual Machines".
 2. Click on the "+ Create" button located on the top left-corner by "Switch to classic".
 3. Choose the option "Azure virtual machine", enter the following information:
     <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
-      <li>Create a name for resource group(Use: RG-osTicket)</li>
-      <li>Enter a unique name for the virtual machine(Use: vm-osticket)</li>
-      <li>Choose the desired "region", "image", "size", "Username", "Password", "Public inbound ports", and "Select inbound ports"</li>
-      <li>For "image" choose the base operating system or application for the VM (</li>
-      <li></li>
-      <li></li>
-
+      <li>Create a name for resource group (Use: RG-osTicket).</li>
+      <li>Enter a unique name for the virtual machine (Use: vm-osticket).</li>
+      <li>For "Image" use: Windows 10 Pro, version 21H2 (free services eligible). </li>
+      <li>For "Size" use: Standard_D4s_v3 - 4 vcpus, 16 GiB memory. </li>
+      <li>For "Username" use: labuser.</li>
+      <li>For "Password" make sure to make up one.</li>
+      <li>For "Public inbound ports" click on "Allow selected ports".</li>
+      <li>For "Select inbound ports" use: RDP 3389.</li>
     </ol>
 
-- Note: Here are the examples below of the specifications I used:
+- Note: After you checkmarked "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm." located at bottom-left corner. Also, after you clicked on the "Review + create" button and review the settings. You should be able to see the following display:
 <p>
-<img src="https://i.imgur.com/eXXnWIY.png" height="80%" width="80%"/>
-</p>
-<p>  
-<p>
-<img src="https://i.imgur.com/kXU9EyC.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/mFRfIOw.png" height="80%" width="80%"/>
 </p>
 <p>  
     
-- Note: Remember to keep your username and password you created in your notes, as you will need them later.
+- Note: Remember to keep your username and password you created in your notepad, as you will need them later. Also, verify that your information is correct!
 
-4. Locate the check box at the bottom-left corner and click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm.")
-5. Click on the "Review + create" button and review the settings.
-6. Click on the "Create" button to create the virtual machine. (Note: It should take up 1-2 minutes to process the VM)
-7. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
+4. Click on the "Create" button to create the virtual machine. 
+
+- Note: It should take up 1-2 minutes to process the VM)
+
+5. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
 
  
  
@@ -115,33 +106,42 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
  
  
  
-<h2>Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP)</h2>
+<h2>Step 4: Configure remote access to the virtual machines using Remote Desktop Protocol (RDP)</h2>
 
-1. Click on the "Seach resources, services, docs (G+/)"
-2. In the search bar, type "Virtual Machines"
-3. After creating your VM, you should be able to click "vm-osticket"
-4. On the "Overview" tab, find/copy the Public IP Address located within the Essentials category.
-- Note: See the image below: 
+1. On the search bar, type "Virtual Machines".
+- Note: After you created your VM, you should be able to see the following display:
 
 <p>
-<img src="https://i.imgur.com/k30oAxe.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/yiGKwd4.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-5. For Windows users click the "Start" Button (Windows logo) located at the bottom-left corner and search for "Remote Desktop Connection". 
+2. Click the blue link "vm-osticket" located under "Name".
+3. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
+<p>
+<img src="https://i.imgur.com/6WKUKJ0.png" height="80%" width="80%"/>
+</p>
+<p>  
 
- - Note: For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
-6. Paste the Public IP Address on the computer name field and click "Connect". (Note: For Mac User's paste the IP Address on "PC-name" and click "add")
-7. Afterwards make sure to log-in your user's/password's creditial from Step 3. (Ex: Username: labuser/Password: Your unique password).
-
-- Note: For Windows Users click "yes" to connect to the remote computer. Observe the following display:
+4. To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
  
+5. Paste the Public IP address(from your VM) on the computer name field and click "Connect". For Mac Users paste the IP Address on "PC-name" and click "add".
+ 
+ <p>
+<img src="https://i.imgur.com/So0Dn0n.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+6. Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
+
+- Note: For Windows Users click "Yes" to connect to your VM. Observe the following display: 
 <p>
 <img src="https://i.imgur.com/xHG3t9h.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-8. Choose the options for "Choose privacy settings for your device": 
+7. Please wait until your virtual machine logs you in.
+8. Then choose the following options for "Choose privacy settings for your device": 
     <ol type="a">
       <li>Location: No </li>
       <li>Diagnostic Data: No</li>
@@ -151,6 +151,18 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
      <li>Advertising ID: No</li>
     </ol>
 9. Click "Accept"
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h2>Step 5: Download/Install the following applications: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62</h2>
 
