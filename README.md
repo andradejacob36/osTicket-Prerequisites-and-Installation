@@ -47,9 +47,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 <h2>Step 2: Create a Resource Group</h2>
 
-1. Click on the "Seach resources, services, docs..." 
-2. In the search bar, type "Research Groups"
-3. Click on the "+ Create" button located on the right top corner by "Switch to classic"
+1. Locate the search bar and type "Research Groups".
+2. To create a new item, click on the "+ Create" button located in the top right corner next to the "Switch to Classic" option"
     <ol type="a">
       <li>Choose your subscription.</li>
       <li>Create a name of your resource group.</li>
@@ -66,7 +65,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
  
 6. Then click "create"
 
-- Note: By creating a Resource Group, you'll have a container to contain all your related resources in a single place.
+- Note: By creating a Resource Group, it would be like a container that wikk contain all your related resources in a single place.
 
 <h2>Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications</h2>
 
