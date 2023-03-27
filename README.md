@@ -35,49 +35,60 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
 1. Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
-
-- Note: If you do not have an Azure account, you will need to sign up for one before you can log-in.)
-
-2. Once you have successfully authenticated, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
+- Note: If you do not have an Azure account, you will need to sign up for one before you can log-in.
+2. Once you have successfully logged-in, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
 3. You should be able to see the following display:
 <p>
 <img src="https://i.imgur.com/zr0sGpt.png" height="80%" width="80%"/>
 </p>
 <p>  
 
+ 
+ 
+ 
+ 
 <h2>Step 2: Create a Resource Group</h2>
 
 1. Locate the search bar and type "Research Groups".
-2. To create a new item, click on the "+ Create" button located in the top right corner next to the "Switch to Classic" option"
-    <ol type="a">
-      <li>Choose your subscription.</li>
-      <li>Create a name of your resource group.</li>
-      <li>Choose a region to deploy the virtual machine to.</li>   
+2. To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
+   <ol type="a">
+      <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
+      <li>Create a name of your resource group (Use: RG-osTicket).</li>
+      <li>Choose a region to deploy the virtual machine to (For Ex: West US 3).</li>   
     </ol>
 
-4. After, typing your desired specifications click on the box "Review + create" 
-5. You should be able to see the following display:
+3. After, typing your desired specifications click on the box "Review + create".
+4. You should be able to see the following display:
 
 <p>
-<img src="https://i.imgur.com/lpBisFO.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/ILYejQz.png" height="80%" width="80%"/>
 </p>
-<p>  
+<p>   
+
+5. Then click "Create" located at the bottom left-corner.
  
-6. Then click "create"
+- Note: By creating a Resource Group, it would be like creating a container that will hold all of your related resources in one centralized location.
 
-- Note: By creating a Resource Group, it would be like a container that wikk contain all your related resources in a single place.
+ 
+ 
+ 
+ 
+ 
+ 
+<h2>Step 3: Create a virtual machine using Windows 10 Pro, version 21H2 (free services eligible) and your desired specifications</h2>
 
-<h2>Step 3: Create a virtual machine using Windows 10 Pro, version 21H2(free services eligible) and your desired specifications</h2>
-
-1. Again, click on the "Seach resources, services, docs (G+/)"
-2. In the search bar, type "Virtual Machines"
-3. Click on the "+ Create" button located on the right top corner by "Switch to classic".
-4. Choose the option "Azure virtual machine", enter the following information:
+1. Again, click on the search bar and type "Virtual Machines".
+2. Click on the "+ Create" button located on the top left-corner by "Switch to classic".
+3. Choose the option "Azure virtual machine", enter the following information:
     <ol type="a">
-      <li>Choose your subscription.</li>
+      <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Create a name for resource group(Use: RG-osTicket)</li>
       <li>Enter a unique name for the virtual machine(Use: vm-osticket)</li>
       <li>Choose the desired "region", "image", "size", "Username", "Password", "Public inbound ports", and "Select inbound ports"</li>
+      <li>For "image" choose the base operating system or application for the VM (</li>
+      <li></li>
+      <li></li>
+
     </ol>
 
 - Note: Here are the examples below of the specifications I used:
@@ -92,11 +103,18 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
     
 - Note: Remember to keep your username and password you created in your notes, as you will need them later.
 
-5. Locate the check box at the bottom-left corner and click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm.")
-6. Click on the "Review + create" button and review the settings.
-7. Click on the "Create" button to create the virtual machine. (Note: It should take up 1-2 minutes to process the VM)
-8. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
+4. Locate the check box at the bottom-left corner and click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm.")
+5. Click on the "Review + create" button and review the settings.
+6. Click on the "Create" button to create the virtual machine. (Note: It should take up 1-2 minutes to process the VM)
+7. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <h2>Step 4: Configure remote access to the virtual machines, such as using Remote Desktop Protocol (RDP)</h2>
 
 1. Click on the "Seach resources, services, docs (G+/)"
