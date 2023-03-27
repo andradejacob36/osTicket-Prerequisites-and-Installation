@@ -8,11 +8,11 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machine/Resource Group)
-- Remote Desktop
+- Remote Desktop Connection 
 - osTicket (open-source ticketing system)
 - CGI (Computer-Generated Imagery) 
 - IIS (Internet Information Services)
-- PHP
+- PHP (Hypertext Preprocessor)
 - VC_redist.x86.
 - MySQL 5.5.62
 - HeidiSQL
