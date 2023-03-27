@@ -18,7 +18,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - HeidiSQL
 <h2>Operating Systems Used </h2>
 
-- Windows 10 Pro, version 21H2(free services eligible)</b> 
+- Windows 10 Pro, version 21H2 (free services eligible)</b> 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
