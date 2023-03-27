@@ -37,10 +37,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 - Step 8: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
 - Step 9: Navigate to the osTicket web interface and log in using the administrator credentials.
 - Step 10: Configure the help desk settings, including the department, email settings, and user accounts.
-- Step 11: Set up the email integration by specifying the email server, email account credentials, and notification settings.
-- Step 12: Test the help desk system by creating a test ticket and verifying that it is received and processed correctly.
-- Step 13: Manage tickets by logging in to the osTicket web interface and viewing, replying to, and closing tickets as necessary.
-- Step 14: Optionally, customize the osTicket instance by modifying the templates, themes, and other settings as desired.
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
