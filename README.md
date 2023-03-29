@@ -307,19 +307,28 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 <h2>Step 6: Open IIS as an Admin & Register PHP from within IIS</h2>
 
-1. At the bottom left corner, click on Windows Button
-2. Type "ISS"
-3. Before going to "Internet Information Services(IIS) Manager App, right click it and pick "Run as administrator"
-4. You should see the following Display: 
-5. Double click "PHP Manager"
-6. To enable PHP Manager, click "Register new PHP version"
-7. click the following button: 
-8. Double click PHP folder and click "php-cgi"
-9. At the right bottom corner, click "Open" 
-10. Go back to vm-osticket Home, by clicking the server "vm-osticket\lab..."
-11. Then restart the server by clicking "Restart" located at the right side of the panel under Manage Server. 
+1. At the bottom left corner, click on "Windows" Button.
+2. Type "ISS", right-click it and choose the option: "Run as administrator".
+5. Double-click "PHP Manager".
+6. To enable PHP Manager, under PHP Setup, click on "Register new PHP version".
+8. Double-click on "PHP" folder and click on "php-cgi".
+10. Go back to vm-osticket Home, by clicking the server "vm-osticket (vm-osticket\labuser)" located at the top-left corner.
+11. Then restart the server, under Manage Server, by clicking on "Restart". 
  
 - Note: opening IIS as an administrator and registering PHP with IIS are necessary steps to configure IIS to work with osticket. This allows IIS to understand and process PHP files, which are required to run osticket on a Windows server
+
+- Image Display of Step 6: 
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p> 
+
+
+
+
+ 
+ 
+
 
 <h2>Step 7: Install osTicket on the VM</h2>
 
