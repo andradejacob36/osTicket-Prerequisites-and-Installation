@@ -157,7 +157,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>After the installation is complete make sure to close it.</li>
       <li> To verify your webserver is up & running, open Microsoft Edge and type on the URL "127.0.0.1".</li>
     </ol>  
-- Note: By Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly
+- Note: By Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly.
 
 - Image Display of Step 5: 1.D
 <p>
@@ -170,26 +170,35 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <img src="https://i.imgur.com/toQ7vio.png" height="80%" width="80%"/>
 </p>
 <p> 
-
-
-
-
-
+ 
 2. Download/Install PHP Manager for IIS  
     <ol type="a">
-      <li>Download PHP Manager from the following link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view </li>
-      <li>After downloading PHP Manager, go to File Explorer</li>
-      <li>Double click "PHPManagerForIIS_V1.5.0 from the "Download" section</li>
-      <li>By double clicking the program, you should be able to complete the installation after accepting the License Agreement</li>
+      <li>On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view </li>
+      <li>After downloading PHP Manager, go to Downloads; File Explorer.</li>
+      <li>Double-click "PHPManagerForIIS_V1.5.0 from the "Download" section.</li>
+      <li>To agree to the License Agreement, navigate through the settings and click on the "agree" button.</li>
     </ol>
-- Note: You need to download and install PHP Manager for IIS when using osticket system because it simplifies the process of installing and configuring PHP on IIS, which is required for osticket to run properly
+- Note: Note: You need to download and install PHP Manager for IIS when using osticket system because it is required for osticket to run properly.
+
+- Image Display of Step 5: 2.A 
+<p>
+<img src="https://i.imgur.com/CkmZM9S.png" height="80%" width="80%"/>
+</p>
+<p> 
+
+- Image Display of Step 5: 2.A
+<p>
+<img src="https://i.imgur.com/KhtmG5X.png" height="80%" width="80%"/>
+</p>
+<p> 
 
 3. Download/Install Rewrite Module 
     <ol type="a">
-      <li>Download Rewrite Module from the following link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view </li>
-      <li>Repeat previous directions from 2B, 2C, & 2D for "rewrite_amd64_en-US" </li>
+      <li>On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view </li>
+      <li>Repeat previous instructions from Step 5: 2B, 2C, & 2D for "rewrite_amd64_en-US". </li>
     </ol>
-- Note: the purpose of downloading and installing the Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation by enabling you to rewrite URLs in a way that makes them more user-friendly and descriptive
+- Note: The purpose of Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation. 
+
 
 4. Create the directory C:\PHP
      <ol type="a">
