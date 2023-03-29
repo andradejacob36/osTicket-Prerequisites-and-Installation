@@ -3,11 +3,11 @@
 </p>
 
 <h1>osTicket: Prerequisites and Installation</h1>
-This tutorial will demonstrate how to build a help desk system using osTicket from scratch! Before installing it, This will also teach you how to set up the pre-requirements for the Osticket installation<br/>
+This tutorial will demonstrate how to build a help desk system using osTicket. Before installing it, this tutorial will also teach you how to set-up the pre-requirement applications<br/>
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machine/Resource Group)
+- Microsoft Azure (Virtual Machine/Resource group)
 - Remote Desktop Connection 
 - osTicket (open-source ticketing system)
 - CGI (Computer-Generated Imagery) 
@@ -49,7 +49,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
  
 <h2>Step 2: Create a Resource Group</h2>
 
-1. Locate the search bar and type "Research Groups".
+1. Locate the search bar and type "Research groups".
 2. To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
    <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
@@ -57,7 +57,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
       <li>Choose a region to deploy the virtual machine to (For Ex: West US 3).</li>   
     </ol>
 
-3. After, typing your desired specifications click on the box "Review + create".
+3. After, typing the given specifications click on the box "Review + create".
 4. You should be able to see the following display:
 <p>
 <img src="https://i.imgur.com/ILYejQz.png" height="80%" width="80%"/>
@@ -66,7 +66,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket fr
 
 5. Then click "Create" located at the bottom left-corner.
  
-- Note: By creating a Resource Group, it would be like creating a container that will hold all of your related resources in one centralized location.
+- Note: By creating a Resource group, it would be like creating a container that will hold all of your related resources in one centralized location.
 
 <h2>Step 3: Create a virtual machine using Azure and some given specifications</h2>
 
