@@ -228,7 +228,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Re-do instructions from 4A & 4B.</li>
       <li> Double-click on "PHP" folder.</li>
       <li> At the right bottom corner of "Selection a destination", click on "Select Folder".</li>
-      <li> Click on "Extract" </li>
+      <li> Click on "Extract".</li>
     </ol>
     
 - Note: You need to download PHP 7.3.8 and unzip the contents into C:\PHP for osticket because it is a requirement for running PHP scripts on your web server.
@@ -264,13 +264,23 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
  
  
  
+ 
+ 
 6. Download/Install VC_redist.x86.exe.
      <ol type="a">
       <li>  Download VC_redist.x86.exe from the following link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view </li>
-      <li> Repeat previous directions from 2B, 2C, & 2D for "VC_redist.x86.exe" </li>
+      <li> Repeat previous directions from 2B, 2C, & 2D for "VC_redist.x86.exe". </li>
     </ol>
 
-- Note: Downloading & installing VC_redist.x86.exe is necessary to ensure that osTicket can run on your computer without any issues
+- Note: Downloading & installing VC_redist.x86.exe is necessary to ensure that osTicket can run on your computer without any issues.
+
+
+
+
+
+
+
+
 
 7. Download/Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
      <ol type="a">
