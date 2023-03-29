@@ -357,7 +357,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 1. Extract and copy "upload" folder to c:\inetpub\wwwroot
      <ol type="a">
-      <li> Open windows file explorer and have it open on "This PC" and double click on "Windows (C:)"</li>
+      <li> Open File Explorer and have it open on "This PC" and double click on "Windows (C:)"</li>
       <li> Double click on "inetpub" folder and then proceed by double clicking on "wwwroot" </li>      
       <li> Separately, open another Windows file explorer and go to Downloads</li>
       <li> Then double click on "osTicket-v1.15.8" zip file</li>
@@ -431,7 +431,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol> 
 
 
-<h2>Navigate to the osTicket web interface and log in using the administrator credentials</h2>
+<h2>Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials</h2>
 
 1. Before you navigate the osTicket web interface, we need to clean Up first.
      <ol type="a">
