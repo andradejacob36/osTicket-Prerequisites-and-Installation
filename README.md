@@ -114,7 +114,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 4. To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
  
-5. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac Users paste the IP Address on "PC-name" and click "add".
+5. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
  
  <p>
 <img src="https://i.imgur.com/So0Dn0n.png" height="80%" width="80%"/>
@@ -123,7 +123,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
  
 6. Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
 
-- Note: For Windows Users click "Yes" to connect to your VM. Observe the following display: 
+- Note: For Windows users click "Yes" to connect to your VM. Observe the following display: 
 <p>
 <img src="https://i.imgur.com/xHG3t9h.png" height="80%" width="80%"/>
 </p>
@@ -141,10 +141,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol>
 9. Click "Accept"
 
-
-
-
-
 <h2>Step 5: Download/Install the following applications on your VM: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62</h2>
 
 1. Install/Enable CGI on IIS. Do the following: 
@@ -161,7 +157,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>After the installation is complete make sure to close it.</li>
       <li> To verify your webserver is up & running, open Microsoft Edge and type on the URL "127.0.0.1".</li>
     </ol>  
-- Note by Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly
+- Note: By Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly
 
 - Image Display of Step 5: 1.D
 <p>
