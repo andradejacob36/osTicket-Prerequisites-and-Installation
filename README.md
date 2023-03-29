@@ -235,27 +235,32 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 - Image Display of Step 5: 5.A
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/4xjzlyg.png" height="80%" width="80%"/>
 </p>
 <p> 
  
 - Image Display of Step 5: 5.D
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/fwQJaHW.png" height="80%" width="80%"/>
 </p>
 <p> 
 
 - Image Display of Step 5: 5.F-G
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/G9vj0ay.png" height="80%" width="80%"/>
 </p>
 <p> 
 
 - Image Display of Step 5: 5.H
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/fLkULxx.png" height="80%" width="80%"/>
 </p>
 <p> 
+ 
+ 
+ 
+ 
+ 
  
  
  
