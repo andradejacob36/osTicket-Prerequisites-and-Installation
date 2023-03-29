@@ -25,7 +25,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 - Step 1: You need to authenticate and authorize yourself by logging into the Azure portal.
 - Step 2: Create a Resource group.
 - Step 3: Create a virtual machine using Azure and some given specifications.
-- Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol (RDP).
+- Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol.
 - Step 5: Download/Install these applications on your VM: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62
 - Step 6: Open IIS as an Admin & Register PHP from within IIS
 - Step 7: Install osTicket on the VM.
@@ -43,7 +43,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
 
-<h2>Step 2: Create a Resource Group</h2>
+<h2>Step 2: Create a Resource group</h2>
 
 1. Locate the search bar and type "Research groups".
 2. To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
@@ -95,7 +95,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 5. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
 
-<h2>Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol (RDP)</h2>
+<h2>Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol</h2>
 
 1. On the search bar, type "Virtual Machines".
 - Note: After you created your VM, you should be able to see the following display:
