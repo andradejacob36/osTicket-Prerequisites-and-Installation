@@ -23,14 +23,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: You need to authenticate and authorize yourself by logging into the Azure portal.
-- Step 2: Create a Resource group.
-- Step 3: Create a virtual machine using Azure and some given specifications.
-- Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol.
+- Step 2: Create a Resource group
+- Step 3: Create a virtual machine using Azure and some given specifications
+- Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol
 - Step 5: Download/Install these applications on your VM: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62
 - Step 6: Open IIS as an Admin & Register PHP from within IIS
-- Step 7: Install osTicket on the VM.
-- Step 8: Configure the osTicket instance with the necessary settings, including email, database, and help desk settings.
-- Step 9: Navigate to the osTicket web interface and log in using the administrator credentials.
+- Step 7: Install osTicket on the VM
+- Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings
+- Step 9: Navigate to the osTicket web interface and log in using the administrator credentials
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
@@ -215,10 +215,6 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
 
-
- 
- 
-
 5. Download PHP 7.3.8 and unzip the contents into C:\PHP
      <ol type="a">
       <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view </li>
@@ -257,7 +253,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
  
-6. Download/Install VC_redist.x86.exe.
+6. Download/Install VC_redist.x86.exe
      <ol type="a">
       <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view </li>
       <li> Repeat previous directions from 2B, 2C, & 2D for "VC_redist.x86.exe". </li>
@@ -268,16 +264,16 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 7. Download/Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
      <ol type="a">
       <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view </li>
-      <li> Repeat previous directions from 2B & 2C for "MySQL 5.5.62 </li>
+      <li> Repeat previous directions from 2B & 2C for "MySQL 5.5.62".</li>
       <li> After agreeing to "End User License Agreement". You will see the following display: </li>      
       <li> Click "Typical".</li>
-      <li> Afterwards, install the application</li>
-      <li> Click "Finish" </li>
-      <li> Click "Next" on "Welcome to the MySQL Server Instance Configuration Wizard 1.0.17.0"</li>
-      <li> Choose "Standard Configuration" and click "Next"</li>
-      <li> Both on "New root password" & "Confirm" use:Password1(Optional)</li>
-      <li> Click "Next" and click "Execute"</li>
-      <li> After the download is complete click on "finish" </li>
+      <li> Afterwards, install the application.</li>
+      <li> Click "Finish".</li>
+      <li> Click "Next" on "Welcome to the MySQL Server Instance Configuration Wizard 1.0.17.0".</li>
+      <li> Choose "Standard Configuration" and click "Next".</li>
+      <li> Both on "New root password" & "Confirm" use:Password1(Optional).</li>
+      <li> Click "Next" and click "Execute".</li>
+      <li> After the download is complete click on "finish".</li>
     </ol>
 
 - Note: The reason why you need to download and install this specific version of MySQL is because osticket was designed to work with it. Installing a different version of MySQL or a different database management system altogether may cause compatibility issues and may prevent osticket from functioning properly.
@@ -300,40 +296,66 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
 
-
-
-
-
-
 <h2>Step 6: Open IIS as an Admin & Register PHP from within IIS</h2>
 
 1. At the bottom left corner, click on "Windows" Button.
 2. Type "ISS", right-click it and choose the option: "Run as administrator".
-5. Double-click "PHP Manager".
-6. To enable PHP Manager, under PHP Setup, click on "Register new PHP version".
-8. Double-click on "PHP" folder and click on "php-cgi".
-10. Go back to vm-osticket Home, by clicking the server "vm-osticket (vm-osticket\labuser)" located at the top-left corner.
-11. Then restart the server, under Manage Server, by clicking on "Restart". 
+3. Double-click "PHP Manager".
+4. To enable PHP Manager, under PHP Setup, click on "Register new PHP version".
+5. Double-click on "PHP" folder and click on "php-cgi".
+6. Go back to vm-osticket Home, by clicking the server "vm-osticket (vm-osticket\labuser)" located at the top-left corner.
+7. Then restart the server, under Manage Server, by clicking on "Restart". 
  
-- Note: opening IIS as an administrator and registering PHP with IIS are necessary steps to configure IIS to work with osticket. This allows IIS to understand and process PHP files, which are required to run osticket on a Windows server
+- Note: Opening IIS as an administrator and registering PHP allows the process of PHP files, which are required to run osticket on a Windows server.
 
-- Image Display of Step 6: 
+- Image Display of Step 6.3 
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/04zJAen.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-
-
-
+- Image Display of Step 6.4
+<p>
+<img src="https://i.imgur.com/OwhmRH5.png" height="80%" width="80%"/>
+</p>
+<p> 
  
+- Image Display of Step 6.5 
+<p>
+<img src="https://i.imgur.com/kWoXKd4.png" height="80%" width="80%"/>
+</p>
+<p> 
  
-
-
+- Image Display of Step 6.7
+<p>
+<img src="https://i.imgur.com/ete7bMT.png" height="80%" width="80%"/>
+</p>
+<p> 
+  
 <h2>Step 7: Install osTicket on the VM</h2>
 
-1. Download osTicket-v1.15.8.zip from the following link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-2. Extract and copy "upload" folder to c:\inetpub\wwwroot
+1. On your VM, download osTicket-v1.15.8.zip from the following link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+
+- Image Display of Step 7.1
+<p>
+<img src="https://i.imgur.com/7YQBvuQ.png" height="80%" width="80%"/>
+</p>
+<p> 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+<h2>Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings</h2>
+
+1. Extract and copy "upload" folder to c:\inetpub\wwwroot
      <ol type="a">
       <li> Open windows file explorer and have it open on "This PC" and double click on "Windows (C:)"</li>
       <li> Double click on "inetpub" folder and then proceed by double clicking on "wwwroot" </li>      
@@ -344,7 +366,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>On the wwwroot file folder, change rename "upload" to "osTicket"</li>
     </ol>
     
-3. Reload ISS (Open IIS, Stop and Start the server) 
+2. Reload ISS (Open IIS, Stop and Start the server) 
      <ol type="a">
       <li> Go back to the Internet Information Services(IIS) Manager App and Repeat instructions 10 & 11 from Step 6 </li>
       <li> On the upper left corner, under "Connections", click on "Sites" and then "os-Ticket" file </li>
@@ -353,7 +375,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol> 
 - Note: If you don't have this browser open, then you will have to redo all of the steps from 1-7 or figure out what you did wrong/fix the issue)
 
-4. Enable extensions for Osticket Installer on ISS. 
+3. Enable extensions for Osticket Installer on ISS. 
      <ol type="a">
       <li> Return to Internet Information Services(IIS) Manager App and at the upper-left corner, under "Connections", click on "vm-osticket" </li>
       <li> Then proceed by clicking "Sites" and afterwards "Osticket" </li>
@@ -365,19 +387,12 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Go back to Osticket Installer site and refresh the it, and observe the changes.</li>
       <li> You should see the difference here: show two picture after and before</li>
     </ol> 
-5. Rename: ost-config.php
+4. Rename: ost-config.php
      <ol type="a">
       <li> Go to File Explorer; then to "This Pc", "Windows (C:)", "inetpub", "wwwroot", "osTicket", and "Include"</li>
       <li> Scroll down to find "Ost-sampleconfig.php" and by right-clicking it rename it to "ost-config-php"</li>
-      <li></li>
-      <li></li>
-      <li>  </li>
-      <li></li>
-      <li> </li>
-      <li> </li>
-      <li></li>
     </ol> 
-6. Assign Permissions:: ost-config.php
+5. Assign Permissions:: ost-config.php
      <ol type="a">
       <li> Again right click "ost-config.php" and click on "Properties" and then go to "Security"</li>
       <li> Below "Permissions for SYSTEM" click on "Advanced" </li>
@@ -390,7 +405,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> check on the box "Full control", then "Okay"</li>
       <li> Click okay for "Advanced Security Settings" and click "Apply"</li>
     </ol> 
-7. Download/Install HeidiSQL
+6. Download/Install HeidiSQL
      <ol type="a">
       <li> Nagivate to this link to download it: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
       <li> Go to "Downloads" on File Explorer. Also, Double click HeidiSQL to set it up </li>
@@ -403,7 +418,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Right-click on "Unnamed", click on "Create new" and click on "Database" </li>
       <li> On the panel "Create database". Type "osTicket" on "Name". Click "Okay" </li>
     </ol> 
-8. Continue Setting up osTicket Installer in the browser
+7. Continue Setting up osTicket Installer in the browser
      <ol type="a">
       <li> Go back to OSTicket Installer and click "Continue" at the bottom of the installation page</li>
       <li> Under System Settings, on "Helpdesk Name", & "Default Email",  type your desired name/email </li>
@@ -415,7 +430,10 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> If successful you should see the following display: </li>    
     </ol> 
 
-9. Before you use Osticket, we need to Clean Up first  
+
+<h2>Navigate to the osTicket web interface and log in using the administrator credentials</h2>
+
+1. Before you navigate the osTicket web interface, we need to clean Up first.
      <ol type="a">
       <li> go back to osTicket Folder on File Explorer </li>
       <li> From "This PC" go to "inetpub, "wwwroot", and "osticket </li>
@@ -430,11 +448,11 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
         <li> Uncheck the following: "Full control", "Modify", & "Write"</li>
         <li> click "Okay". Then click "Apply". Afterwards click "Okay". </li>
     </ol> 
-10. Congrats, hopefully the Osticket app is installed with no errors!
+    
+2. Congrats, hopefully the Osticket app is installed with no errors!
      <ol type="a">
-      <li> Browse to your help desk login page:  http://localhost/osTicket/scp/login.php  
-</li>
-      <li> Type in your Email or Username & Password.(From Intruction D Step 8)</li>
+      <li> Browse to your help desk login page: http://localhost/osTicket/scp/login.php </li>
+      <li> Type in your Email or Username/Password.(From Intruction D Step 8)</li>
       <li> Wallah! You should see the following:  </li>
       <li> Congrats of having it working!</li>
     </ol> 
