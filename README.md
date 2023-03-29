@@ -151,19 +151,23 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 1. Install/Enable CGI on IIS. Do the following: 
     <ol type="a">
-      <li>Right click the "Start" Button (Windows logo) and click "Run"</li>
-      <li>Type "control" for control panel</li>
+      <li>Right-click the "Start" Button (Windows logo) and click "Run"</li>
+      <li>Type "control" for the "Run" panel and click "OK"</li>
+      <li>On the Control Panel, do not click "Uninstall a program". Click "Programs".  </li>
       <li>Under "Programs and features", click "Turn Windows features on or off"</li>
-      <li>Turn on "Internet Information Services" by checking the box next to it.</li>
-     <li>Expand IIS and click on "World Wide Web Services" </li>
-     <li>Under WWWS, expand "Application Development Features"</li>
-      <li>Turn on "CGI" by clicking the check box next to it.</li>
-      <li>Click "Okay"</li>
+      <li>By checking the box next, turn on "Internet Information Services.</li>
+     <li>Expand IIS with "+" icon and double-click on "World Wide Web Services".</li>
+     <li>Under WWWS, expand "Application Development Features" by double-clicking it.</li>
+      <li>Check on the box next "CGI".</li>
+      <li>Click "Okay".</li>
        <li>After the installation is complete make sure to close it.</li>
-       <li>Now, open up Microsoft Edge and type on the URL "127.0.0.1 (To verify your webserver is up & running"</li>
+       <li> To verify your webserver is up & running, open Microsoft Edge and type on the URL "127.0.0.1".</li>
     </ol>
 
 - Note by Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly
+
+
+
 
 2. Download/Install PHP Manager for IIS  
     <ol type="a">
