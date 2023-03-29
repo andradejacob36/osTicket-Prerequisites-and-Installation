@@ -199,33 +199,66 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol>
 - Note: The purpose of Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation. 
 
-
 4. Create the directory C:\PHP
      <ol type="a">
-      <li> On File Explorer, click "This PC" </li>
-      <li> Proceed By clicking Windows (C:) </li>
-      <li> You should be able to see the following display (C:) </li>
-      <li> Right click, and click on "New" to create a folder  </li>
-      <li> Name the folder to "PHP" </li>
+      <li> On File Explorer, click "This PC".</li>
+      <li> Under Devices & drives, proceed by double-clicking "Windows (C:)".</li>
+      <li> Right-click, and click on "New" to create a folder.</li>
+      <li> Name the folder to "PHP".</li>
     </ol>
-    
-- Note: the purpose of "PHP" folder within C:\PHP is to unzip the contents of the following program PHP 7.3.8
+  
+- Note: The purpose of "PHP" folder within C:\PHP is to unzip the contents of the following program: PHP 7.3.8.
 
-5. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+- Image Display of Step 5: 4.A-D
+<p>
+<img src="https://i.imgur.com/e0JaClP.png" height="80%" width="80%"/>
+</p>
+<p> 
+
+
+ 
+ 
+
+5. Download PHP 7.3.8 and unzip the contents into C:\PHP
      <ol type="a">
-      <li> Download PHP 7.3.8 from the following link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view </li>
-      <li> Go to Downloads on File Explorer </li>
-      <li> Right click on "php-7.3.8" and click on "Extract All" </li>
-      <li> On the panel, "Extract Compressed (Zipped) Folders" click on "Browse" </li>
-      <li> Redo direction from 4A & 4B</li>
-      <li> Double Click on "PHP" folder </li>
-      <li> At the right bottom corner of "Selection a destination", click on "Select Folder" </li>
-      <li> You should have the following display</li>
+      <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view </li>
+      <li> Go to Downloads; File Explorer. </li>
+      <li> Right-click on "php-7.3.8" and click on "Extract All".</li>
+      <li> On the panel, "Extract Compressed (Zipped) Folders" click on "Browse".</li>
+      <li> Re-do instructions from 4A & 4B.</li>
+      <li> Double-click on "PHP" folder.</li>
+      <li> At the right bottom corner of "Selection a destination", click on "Select Folder".</li>
       <li> Click on "Extract" </li>
     </ol>
     
 - Note: You need to download PHP 7.3.8 and unzip the contents into C:\PHP for osticket because it is a requirement for running PHP scripts on your web server.
 
+- Image Display of Step 5: 5.A
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p> 
+ 
+- Image Display of Step 5: 5.D
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p> 
+
+- Image Display of Step 5: 5.F-G
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p> 
+
+- Image Display of Step 5: 5.H
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p> 
+ 
+ 
+ 
 6. Download/Install VC_redist.x86.exe.
      <ol type="a">
       <li>  Download VC_redist.x86.exe from the following link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view </li>
