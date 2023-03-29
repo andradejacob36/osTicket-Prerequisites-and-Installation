@@ -169,6 +169,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
 
+- Image Display of Step 5: 1.E-H
+<p>
+<img src="https://i.imgur.com/toQ7vio.png" height="80%" width="80%"/>
+</p>
+<p> 
+
+
+
 
 
 2. Download/Install PHP Manager for IIS  
