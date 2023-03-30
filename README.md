@@ -475,37 +475,61 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <p>
 <img src="https://i.imgur.com/4kY9rIX.png" height="80%" width="80%"/>
 </p>
-<p>  
-    
-    
-    
-    
-    
+<p>   
+ 
 6. Download/Install HeidiSQL
      <ol type="a">
-      <li> Nagivate to this link to download it: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
-      <li> Go to "Downloads" on File Explorer. Also, Double click HeidiSQL to set it up </li>
-      <li> After agreeing the License Agreement, keep clicking next until you see the install option</li>
-      <li> Click "install". After that is finished click on "Finish" </li>
-      <li> You should see the following display: </li>
-      <li> At bottom left corner click on "New". Do not click on the down arrow button.</li>
-      <li> For the "User" name remember it is "root" and for password it is "Password1" </li>
-      <li> At the bottom click on "Open"  </li>
-      <li> Right-click on "Unnamed", click on "Create new" and click on "Database" </li>
-      <li> On the panel "Create database". Type "osTicket" on "Name". Click "Okay" </li>
+      <li> On your VM, download it with this link: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
+      <li> Go to "Downloads" on File Explorer. Also, Double-click HeidiSQL.</li>
+      <li> After agreeing "the License Agreement", keep clicking "Next" until you see the "Install" option.</li>
+      <li> Click "install". Then, click on "Finish".</li>
+      <li> At bottom left corner click on "New" (Do not click on the down-arrow button).</li>
+      <li> For the "User" use: "root" and for password use: "Password1".</li>
+      <li> At the bottom click "Open".</li>
+      <li> Right-click on "Unnamed", then to "Create new" and on "Database". </li>
+      <li> On the panel "Create database", Type "osTicket" on "Name". Click "Okay" </li>
     </ol> 
+ 
+- Image Display of Step 8: 6.E-G
+<p>
+<img src="https://i.imgur.com/e8ADuIK.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+- Image Display of Step 8: 6.H-I
+<p>
+<img src="https://i.imgur.com/Q94mvv5.png" height="80%" width="80%"/>
+</p>
+<p>  
+    
 7. Continue Setting up osTicket Installer in the browser
      <ol type="a">
-      <li> Go back to OSTicket Installer and click "Continue" at the bottom of the installation page</li>
-      <li> Under System Settings, on "Helpdesk Name", & "Default Email",  type your desired name/email </li>
-      <li> Under Admin User, type your desired "First Name", "Last Name", & "Email Address" </li>
-      <li> For this Username use: user_admin & Password use: Password1 </li>
-      <li> Under Database Settings, on "MySQL Database", "MySQL Username", & "MySQL Password" put the following info as:"OsTicket"(Name created from HeidiSQL), "root", (from), & "Password1"(from) </li>
-- Note: Make sure you save this information on your notepad just in case if we need this info later on.
-      <li> At the bottom click "Install Now"</li>  
+      <li> Return to OSTicket Installer and click "Continue" at the bottom page.</li>
+      <li> Under System Settings, type your desired "Helpdesk Name" & "Default Email" (Ex Name: Jacob Helpdesk).</li>
+      <li> Under Admin User, type your desired "First Name", "Last Name", & "Email Address". </li>
+      <li> For the "Username" use: user_admin & Password use: Password1 </li>
+      <li> Under Database Settings, on "MySQL Database"(use:osTicket), "MySQL Username"(use:root), & "MySQL Password"(use:Password1).</li>
+      <li> Click "Install Now".</li>  
       <li> If successful you should see the following display: </li>    
     </ol> 
 
+- Note: Make sure you save Username & Password on your notepad just in case if you need it later on.
+
+- Image Display of Step 8: 7.D-F
+<p>
+<img src="https://i.imgur.com/j0vYVe9.png" height="80%" width="80%"/>
+</p>
+<p>  
+
+- Image Display of Step 8: 7.G
+<p>
+<img src="https://i.imgur.com/cNBQVcy.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+ 
+ 
+ 
 
 <h2>Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials</h2>
 
