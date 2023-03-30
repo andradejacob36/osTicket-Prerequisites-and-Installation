@@ -428,32 +428,59 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
     
-    
-    
-    
-    
-    
-    
- 
- 
 4. Rename: ost-config.php
      <ol type="a">
-      <li> Go to File Explorer; then to "This Pc", "Windows (C:)", "inetpub", "wwwroot", "osTicket", and "Include"</li>
-      <li> Scroll down to find "Ost-sampleconfig.php" and by right-clicking it rename it to "ost-config-php"</li>
+      <li> Go to File Explorer, then to "This PC", "Windows (C:)", "inetpub", "wwwroot", "osTicket", and "Include".</li>
+      <li> Scroll down to find "ost-sampleconfig.php" and right-click it to rename it: "ost-config.php".</li>
     </ol> 
-5. Assign Permissions:: ost-config.php
+
+- Image Display of Step 8: 4.A-B
+<p>
+<img src="https://i.imgur.com/NoqPtKe.png" height="80%" width="80%"/>
+</p>
+<p>  
+     
+5. Assign Permissions: ost-config.php
      <ol type="a">
-      <li> Again right click "ost-config.php" and click on "Properties" and then go to "Security"</li>
-      <li> Below "Permissions for SYSTEM" click on "Advanced" </li>
-      <li> Click on "Disable inheritance" from the following display:</li>
-      <li> Click "Remove all inherited permissions fomr this object"</li>
-      <li> Click "add" </li>
-      <li> Select "Select a principle" </li>
-      <li> On the "Enter the object name to object" type "everyone" </li>
-      <li> Click "Check Names", then "Okay" </li>
-      <li> check on the box "Full control", then "Okay"</li>
-      <li> Click okay for "Advanced Security Settings" and click "Apply"</li>
+      <li> Again right-click "ost-config.php" and click on "Properties" and then click to "Security".</li>
+      <li> Below "Permissions for SYSTEM" click on "Advanced".</li>
+      <li> Click on "Disable inheritance".</li>
+      <li> Click "Remove all inherited permissions from this object".</li>
+      <li> Click "Add" and click on "Select a principle".</li>
+      <li> Type "everyone" for "Enter the object name to object".</li>
+      <li> Click "Check Names", then "Okay".</li>
+      <li> Check on the box "Full control", then "Okay".</li>
+      <li> Click "Okay" for "Advanced Security Settings" and click "Apply".</li>
     </ol> 
+ 
+- Image Display of Step 8: 5.A-B
+<p>
+<img src="https://i.imgur.com/kAXlfDm.png" height="80%" width="80%"/>
+</p>
+<p>  
+
+- Image Display of Step 8: 5.C-D
+<p>
+<img src="https://i.imgur.com/Oe6YUKK.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+- Image Display of Step 8: 5.E
+<p>
+<img src="https://i.imgur.com/SZHE5fi.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+- Image Display of Step 8: 5.F-G
+<p>
+<img src="https://i.imgur.com/4kY9rIX.png" height="80%" width="80%"/>
+</p>
+<p>  
+    
+    
+    
+    
+    
 6. Download/Install HeidiSQL
      <ol type="a">
       <li> Nagivate to this link to download it: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
