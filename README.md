@@ -384,12 +384,34 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     
 2. Reload ISS (Open IIS, Stop and Start the server) 
      <ol type="a">
-      <li> Go back to the Internet Information Services(IIS) Manager App and Repeat instructions 10 & 11 from Step 6 </li>
-      <li> On the upper left corner, under "Connections", click on "Sites" and then "os-Ticket" file </li>
-      <li> Then on the upper-right corner, under "Manage Folder", click on "Browse *:80"</li>
-      <li> You should have the following display open</li>
+      <li> To refresh it again, go back to the Internet Information Services(IIS) Manager App and repeat Step 6: 6 & 7.</li>
+      <li> On the upper left corner, under "Connections", double-click on "Sites", "Default Web Site", & then "os-Ticket" file.</li>
+      <li> Then on the upper-right corner, under "Manage Folder", click on "Browse *:80".</li>
+      <li> After clicking "Browse *:80", you should have the following display open:</li>
     </ol> 
-- Note: If you don't have this browser open, then you will have to redo all of the steps from 1-7 or figure out what you did wrong/fix the issue)
+- Note: If you don't have the osTicket Installer browser open, you can re-do all of your steps from the beginning or troubleshoot the issue.
+
+- Image Display of Step 8: 2.B
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
+
+- Image Display of Step 8: 2.C
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
+
+- Image Display of Step 8: 2.D
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
+
+
+
+
 
 3. Enable extensions for Osticket Installer on ISS. 
      <ol type="a">
