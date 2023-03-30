@@ -371,17 +371,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <img src="https://i.imgur.com/thKmnkv.png" height="80%" width="80%"/>
 </p>
 <p>     
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-    
+      
 2. Reload ISS (Open IIS, Stop and Start the server) 
      <ol type="a">
       <li> To refresh it again, go back to the Internet Information Services(IIS) Manager App and repeat Step 6: 6 & 7.</li>
@@ -391,21 +381,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol> 
 - Note: If you don't have the osTicket Installer browser open, you can re-do all of your steps from the beginning or troubleshoot the issue.
 
-- Image Display of Step 8: 2.B
+- Image Display of Step 8: 2.B-C
 <p>
-<img src="" height="80%" width="80%"/>
-</p>
-<p>  
-
-- Image Display of Step 8: 2.C
-<p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/ZnH6Utr.png" height="80%" width="80%"/>
 </p>
 <p>  
 
 - Image Display of Step 8: 2.D
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/KWHaPpm.png" height="80%" width="80%"/>
 </p>
 <p>  
 
@@ -413,6 +397,9 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 
 
+ 
+ 
+ 
 3. Enable extensions for Osticket Installer on ISS. 
      <ol type="a">
       <li> Return to Internet Information Services(IIS) Manager App and at the upper-left corner, under "Connections", click on "vm-osticket" </li>
