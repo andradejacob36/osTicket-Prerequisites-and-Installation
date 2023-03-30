@@ -342,29 +342,45 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 <h2>Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings</h2>
 
 1. Extract and copy "upload" folder to c:\inetpub\wwwroot
      <ol type="a">
-      <li> Open File Explorer and have it open on "This PC" and double click on "Windows (C:)"</li>
-      <li> Double click on "inetpub" folder and then proceed by double clicking on "wwwroot" </li>      
-      <li> Separately, open another Windows file explorer and go to Downloads</li>
-      <li> Then double click on "osTicket-v1.15.8" zip file</li>
-      <li> Now have both Windows File Explorers available to drag "upload" folder to wwwwroot </li>
-      <li> See the following display </li>
-      <li>On the wwwroot file folder, change rename "upload" to "osTicket"</li>
+      <li> Open File Explorer and have it open on "This PC" and double-click on "Windows (C:)".</li>
+      <li> Double-click on "inetpub" folder and then proceed by double-clicking on "wwwroot".</li>      
+      <li> Separately, open another Windows File Explorer and go to Downloads.</li>
+      <li> Then double-click on "osTicket-v1.15.8" zip file.</li>
+      <li> Now, have both Windows File Explorers on display to drag "upload" folder to wwwwroot.</li>
+      <li> Within the wwwroot file folder, rename "upload" to "osTicket".</li>
     </ol>
+
+- Image Display of Step 8: 1.A-B
+<p>
+<img src="https://i.imgur.com/JkpPG8Y.png" height="80%" width="80%"/>
+</p>
+<p> 
+    
+- Image Display of Step 8: 1.E
+<p>
+<img src="https://i.imgur.com/5reVM7j.png" height="80%" width="80%"/>
+</p>
+<p>     
+
+- Image Display of Step 8: 1.F
+<p>
+<img src="https://i.imgur.com/thKmnkv.png" height="80%" width="80%"/>
+</p>
+<p>     
+    
+    
+    
+    
+    
+    
+    
+    
+
+
     
 2. Reload ISS (Open IIS, Stop and Start the server) 
      <ol type="a">
