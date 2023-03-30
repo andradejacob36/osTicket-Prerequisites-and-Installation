@@ -30,7 +30,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 - Step 6: Open IIS as an Admin & Register PHP from within IIS
 - Step 7: Install osTicket on the VM
 - Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings
-- Step 9: Navigate to the osTicket web interface and log in using the administrator credentials
+- Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
@@ -527,32 +527,63 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
  
- 
- 
- 
-
 <h2>Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials</h2>
 
 1. Before you navigate the osTicket web interface, we need to clean Up first.
      <ol type="a">
-      <li> go back to osTicket Folder on File Explorer </li>
-      <li> From "This PC" go to "inetpub, "wwwroot", and "osticket </li>
-    <li> You should see the following display:  </li>
-      <li> Right- click on "setup" and "Delete" it </li>
-      <li> Inside of C:\inetpub\wwwroot\osTicket\include\ost-config.php reset the permissions back to ost-config.php</li>
-      <li> Find "ost-config.php" and right click on it to "Properties"</li>
-        <li> Go to Security</li>
-        <li>under Permissions for Eveyone, click on "Advanced" </li>
-        <li> click the following: " Allow Eveyone". Afterwards "Edit" </li>
-        <li> See the following image: </li>
-        <li> Uncheck the following: "Full control", "Modify", & "Write"</li>
-        <li> click "Okay". Then click "Apply". Afterwards click "Okay". </li>
-    </ol> 
-    
-2. Congrats, hopefully the Osticket app is installed with no errors!
+      <li> Return to "osTicket" folder on File Explorer.</li>
+      <li> Right-click on "setup" and "Delete".</li>
+     </ol> 
+
+- Image Display of Step 9: 1.A-B
+<p>
+<img src="https://i.imgur.com/AWaXU6W.png" height="80%" width="80%"/>
+</p>
+<p>  
+
+2. Inside of C:\inetpub\wwwroot\osTicket\include\ost-config.php reset the permissions back to ost-config.php
      <ol type="a">
-      <li> Browse to your help desk login page: http://localhost/osTicket/scp/login.php </li>
-      <li> Type in your Email or Username/Password.(From Intruction D Step 8)</li>
-      <li> Wallah! You should see the following:  </li>
-      <li> Congrats of having it working!</li>
+      <li> Find "ost-config.php" and right-click on "Properties".</li>
+      <li> Go to Security.</li>
+      <li> Under "Permissions for Everyone", click on "Advanced".</li>
+      <li> Click "Allow Eveyone". Then "Edit".</li>
+      <li> Uncheck the following: "Full control", "Modify", & "Write".</li>
+      <li> Click "Okay". Then "Apply". Afterwards, "Okay". </li>
+     </ol> 
+
+- Image Display of Step 9: 2.A
+<p>
+<img src="https://i.imgur.com/v3namCt.png" height="80%" width="80%"/>
+</p>
+<p>  
+
+- Image Display of Step 9: 2.B-C
+<p>
+<img src="https://i.imgur.com/tlLlGAl.png" height="80%" width="80%"/>
+</p>
+<p>  
+    
+- Image Display of Step 9: 2.D
+<p>
+<img src="https://i.imgur.com/PyUvRvr.png" height="80%" width="80%"/>
+</p>
+<p>     
+ 
+- Image Display of Step 9: 2.E
+<p>
+<img src="https://i.imgur.com/kOq4aOQ.png" height="80%" width="80%"/>
+</p>
+<p>  
+        
+3. Congrats, hopefully the Osticket app is installed with no errors!
+     <ol type="a">
+      <li> Browse to your help desk log-in page: http://localhost/osTicket/scp/login.php </li>
+      <li> Type in your Email or Username/Password.(Step 8;7D use:user_admin & use:Password1).</li>
+      <li> Congratulations of having it working!</li>
     </ol> 
+
+- Image Display of Step 9: 3.A-C
+<p>
+<img src="https://i.imgur.com/0Ysb1YX.png" height="80%" width="80%"/>
+</p>
+<p>  
