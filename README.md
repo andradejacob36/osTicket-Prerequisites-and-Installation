@@ -393,25 +393,49 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
 
-
-
-
-
- 
- 
- 
 3. Enable extensions for Osticket Installer on ISS. 
      <ol type="a">
-      <li> Return to Internet Information Services(IIS) Manager App and at the upper-left corner, under "Connections", click on "vm-osticket" </li>
-      <li> Then proceed by clicking "Sites" and afterwards "Osticket" </li>
-      <li> Click on "PHP Manager" which is located between "Output Caching" and "Request Filtering"</li>
-      <li> Under PHP Extensions, click on "Enable or disable an extension" </li>
-      <li> It should look like this </li>
+      <li> Return to Internet Information Services(IIS) Manager App and at the upper-left corner, under "Connections", click on "vm-osticket". </li>
+      <li> Then proceed by clicking "Sites" and "OsTicket".</li>
+      <li> Double-click on "PHP Manager".</li>
+      <li> Under PHP Extensions, click on "Enable or disable an extension".</li>
       <li> Look for php_imap.dll, php_intl.dll, & php_opcache.dll</li>
-      <li> One by one you should be able to enable them by clicking "Enable" located at the upper right corner, under "actions"</li>
-      <li> Go back to Osticket Installer site and refresh the it, and observe the changes.</li>
-      <li> You should see the difference here: show two picture after and before</li>
+      <li> One by one enable them by clicking "Enable" located, under "actions", at the upper right corner.</li>
+      <li> Return to Osticket Installer browser and refresh it, and observe the changes.</li>
     </ol> 
+  
+- Image Display of Step 8: 3.A-C
+<p>
+<img src="https://i.imgur.com/dIaq0iA.png" height="80%" width="80%"/>
+</p>
+<p>  
+
+- Image Display of Step 8: 3.D
+<p>
+<img src="https://i.imgur.com/UntQY8Z.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+- Image Display of Step 8: 3.E-F
+<p>
+<img src="https://i.imgur.com/myYNbpc.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+- Image Display of Step 8: 3.G
+<p>
+<img src="https://i.imgur.com/3iL3x8a.png" height="80%" width="80%"/>
+</p>
+<p>  
+    
+    
+    
+    
+    
+    
+    
+ 
+ 
 4. Rename: ost-config.php
      <ol type="a">
       <li> Go to File Explorer; then to "This Pc", "Windows (C:)", "inetpub", "wwwroot", "osTicket", and "Include"</li>
