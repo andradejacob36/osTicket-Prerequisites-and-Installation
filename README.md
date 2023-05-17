@@ -345,7 +345,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings</h2>
 
 1.Extract and copy "upload" folder to c:\inetpub\wwwroot
-     <ol type="a">
+    <ol type="a">
       <li> Open File Explorer and have it open on "This PC" and double-click on "Windows (C:)".</li>
       <li> Double-click on "inetpub" folder and then proceed by double-clicking on "wwwroot".</li>      
       <li> Separately, open another Windows File Explorer and go to Downloads.</li>
