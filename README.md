@@ -34,10 +34,10 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
-1. Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
+1.Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
 - Note: If you do not have an Azure account, you will need to sign up for one before you can log-in.
-2. Once you have successfully logged-in, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
-3. You should be able to see the following display:
+2.Once you have successfully logged-in, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
+3.You should be able to see the following display:
 <p>
 <img src="https://i.imgur.com/zr0sGpt.png" height="80%" width="80%"/>
 </p>
@@ -45,30 +45,30 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 <h2>Step 2: Create a Resource group</h2>
 
-1. Locate the search bar and type "Research groups".
-2. To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
+1.Locate the search bar and type "Research groups".
+2.To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
    <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Create a name of your resource group (Use: RG-osTicket).</li>
       <li>Choose a region to deploy the virtual machine to (For Ex: West US 3).</li>   
     </ol>
 
-3. After, typing the given specifications click on the box "Review + create".
-4. You should be able to see the following display:
+3.After, typing the given specifications click on the box "Review + create".
+4.You should be able to see the following display:
 <p>
 <img src="https://i.imgur.com/ILYejQz.png" height="80%" width="80%"/>
 </p>
 <p>   
 
-5. Then click "Create" located at the bottom left-corner.
+5.Then click "Create" located at the bottom left-corner.
  
 - Note: By creating a Resource group, it would be like creating a container that will hold all of your related resources in one centralized location.
 
 <h2>Step 3: Create a virtual machine using Azure and some given specifications</h2>
 
-1. Again, click on the search bar and type "Virtual Machines".
-2. Click on the "+ Create" button located on the top left-corner by "Switch to classic".
-3. Choose the option "Azure virtual machine", enter the following information:
+1.Again, click on the search bar and type "Virtual Machines".
+2.Click on the "+ Create" button located on the top left-corner by "Switch to classic".
+3.Choose the option "Azure virtual machine", enter the following information:
     <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Create a name for resource group (Use: RG-osTicket).</li>
@@ -89,15 +89,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     
 - Note: Remember to keep your username and password you created in your notepad, as you will need them later. Also, verify that your information is correct!
 
-4. Click on the "Create" button to create the virtual machine. 
+4.Click on the "Create" button to create the virtual machine. 
 
 - Note: It should take up 1-2 minutes to process the VM
 
-5. Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
+5.Once the virtual machine Windows 10 Pro (21H2) is created, you can access it through the Azure portal or by using remote desktop tools.
 
 <h2>Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol</h2>
 
-1. On the search bar, type "Virtual Machines".
+1.On the search bar, type "Virtual Machines".
 - Note: After you created your VM, you should be able to see the following display:
 
 <p>
@@ -105,23 +105,23 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
 
-2. Click the blue link "vm-osticket" located under "Name".
-3. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
+2.Click the blue link "vm-osticket" located under "Name".
+3.On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
 <p>
 <img src="https://i.imgur.com/6WKUKJ0.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-4. To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
+4.To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
  
-5. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
+5.Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
  
  <p>
 <img src="https://i.imgur.com/So0Dn0n.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-6. Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
+6.Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
 
 - Note: For Windows users click "Yes" to connect to your VM. Observe the following display: 
 <p>
@@ -129,8 +129,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
  
-7. Please wait until your virtual machine logs you in.
-8. Then choose the following options for "Choose privacy settings for your device": 
+7.Please wait until your virtual machine logs you in.
+8.Then choose the following options for "Choose privacy settings for your device": 
     <ol type="a">
       <li>Location: No </li>
       <li>Diagnostic Data: No</li>
@@ -139,11 +139,11 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
      <li>Inking and Typing: No</li>
      <li>Advertising ID: No</li>
     </ol>
-9. Click "Accept"
+9.Click "Accept"
 
 <h2>Step 5: Download/Install the following applications on your VM: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62</h2>
 
-1. Install/Enable CGI on IIS. Do the following: 
+1.Install/Enable CGI on IIS. Do the following: 
     <ol type="a">
       <li>Right-click the "Start" Button (Windows logo) and click "Run"</li>
       <li>Type "control" for the "Run" panel and click "OK"</li>
@@ -171,7 +171,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
  
-2. Download/Install PHP Manager for IIS  
+2.Download/Install PHP Manager for IIS  
     <ol type="a">
       <li>On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view </li>
       <li>After downloading PHP Manager, go to Downloads; File Explorer.</li>
@@ -192,14 +192,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
 
-3. Download/Install Rewrite Module 
+3.Download/Install Rewrite Module 
     <ol type="a">
       <li>On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view </li>
       <li>Repeat previous instructions from Step 5: 2B, 2C, & 2D for "rewrite_amd64_en-US". </li>
     </ol>
 - Note: The purpose of Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation. 
 
-4. Create the directory C:\PHP
+4.Create the directory C:\PHP
      <ol type="a">
       <li> On File Explorer, click "This PC".</li>
       <li> Under Devices & drives, proceed by double-clicking "Windows (C:)".</li>
@@ -215,7 +215,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
 
-5. Download PHP 7.3.8 and unzip the contents into C:\PHP
+5.Download PHP 7.3.8 and unzip the contents into C:\PHP
      <ol type="a">
       <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view </li>
       <li> Go to Downloads; File Explorer. </li>
@@ -253,7 +253,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p> 
  
-6. Download/Install VC_redist.x86.exe
+6.Download/Install VC_redist.x86.exe
      <ol type="a">
       <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view </li>
       <li> Repeat previous directions from 2B, 2C, & 2D for "VC_redist.x86.exe". </li>
@@ -261,7 +261,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 - Note: Downloading & installing VC_redist.x86.exe is necessary to ensure that osTicket can run on your computer without any issues.
 
-7. Download/Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+7.Download/Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
      <ol type="a">
       <li> On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view </li>
       <li> Repeat previous directions from 2B & 2C for "MySQL 5.5.62".</li>
@@ -298,13 +298,13 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 <h2>Step 6: Open IIS as an Admin & Register PHP from within IIS</h2>
 
-1. At the bottom left corner, click on "Windows" Button.
-2. Type "ISS", right-click it and choose the option: "Run as administrator".
-3. Double-click "PHP Manager".
-4. To enable PHP Manager, under PHP Setup, click on "Register new PHP version".
-5. Double-click on "PHP" folder and click on "php-cgi".
-6. Go back to vm-osticket Home, by clicking the server "vm-osticket (vm-osticket\labuser)" located at the top-left corner.
-7. Then restart the server, under Manage Server, by clicking on "Restart". 
+1.At the bottom left corner, click on "Windows" Button.
+2.Type "ISS", right-click it and choose the option: "Run as administrator".
+3.Double-click "PHP Manager".
+4.To enable PHP Manager, under PHP Setup, click on "Register new PHP version".
+5.Double-click on "PHP" folder and click on "php-cgi".
+6.Go back to vm-osticket Home, by clicking the server "vm-osticket (vm-osticket\labuser)" located at the top-left corner.
+7.Then restart the server, under Manage Server, by clicking on "Restart". 
  
 - Note: Opening IIS as an administrator and registering PHP allows the process of PHP files, which are required to run osticket on a Windows server.
 
@@ -334,7 +334,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
   
 <h2>Step 7: Install osTicket on the VM</h2>
 
-1. On your VM, download osTicket-v1.15.8.zip from the following link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+1.On your VM, download osTicket-v1.15.8.zip from the following link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 - Image Display of Step 7.1
 <p>
@@ -344,7 +344,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 <h2>Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings</h2>
 
-1. Extract and copy "upload" folder to c:\inetpub\wwwroot
+1.Extract and copy "upload" folder to c:\inetpub\wwwroot
      <ol type="a">
       <li> Open File Explorer and have it open on "This PC" and double-click on "Windows (C:)".</li>
       <li> Double-click on "inetpub" folder and then proceed by double-clicking on "wwwroot".</li>      
@@ -372,7 +372,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>     
       
-2. Reload ISS (Open IIS, Stop and Start the server) 
+2.Reload ISS (Open IIS, Stop and Start the server) 
      <ol type="a">
       <li> To refresh it again, go back to the Internet Information Services(IIS) Manager App and repeat Step 6: 6 & 7.</li>
       <li> On the upper left corner, under "Connections", double-click on "Sites", "Default Web Site", & then "os-Ticket" file.</li>
@@ -393,7 +393,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
 
-3. Enable extensions for Osticket Installer on ISS. 
+3.Enable extensions for Osticket Installer on ISS. 
      <ol type="a">
       <li> Return to Internet Information Services(IIS) Manager App and at the upper-left corner, under "Connections", click on "vm-osticket". </li>
       <li> Then proceed by clicking "Sites" and "OsTicket".</li>
@@ -428,7 +428,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
     
-4. Rename: ost-config.php
+4.Rename: ost-config.php
      <ol type="a">
       <li> Go to File Explorer, then to "This PC", "Windows (C:)", "inetpub", "wwwroot", "osTicket", and "Include".</li>
       <li> Scroll down to find "ost-sampleconfig.php" and right-click it to rename it: "ost-config.php".</li>
@@ -440,7 +440,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
      
-5. Assign Permissions: ost-config.php
+5.Assign Permissions: ost-config.php
      <ol type="a">
       <li> Again right-click "ost-config.php" and click on "Properties" and then click to "Security".</li>
       <li> Below "Permissions for SYSTEM" click on "Advanced".</li>
@@ -477,7 +477,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>   
  
-6. Download/Install HeidiSQL
+6.Download/Install HeidiSQL
      <ol type="a">
       <li> On your VM, download it with this link: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
       <li> Go to "Downloads" on File Explorer. Also, Double-click HeidiSQL.</li>
@@ -502,7 +502,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
     
-7. Continue Setting up osTicket Installer in the browser
+7.Continue Setting up osTicket Installer in the browser
      <ol type="a">
       <li> Return to OSTicket Installer and click "Continue" at the bottom page.</li>
       <li> Under System Settings, type your desired "Helpdesk Name" & "Default Email" (Ex Name: Jacob Helpdesk).</li>
@@ -529,7 +529,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
  
 <h2>Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials</h2>
 
-1. Before you navigate the osTicket web interface, we need to clean Up first.
+1.Before you navigate the osTicket web interface, we need to clean Up first.
      <ol type="a">
       <li> Return to "osTicket" folder on File Explorer.</li>
       <li> Right-click on "setup" and "Delete".</li>
@@ -541,7 +541,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
 
-2. Inside of C:\inetpub\wwwroot\osTicket\include\ost-config.php reset the permissions back to ost-config.php
+2.Inside of C:\inetpub\wwwroot\osTicket\include\ost-config.php reset the permissions back to ost-config.php
      <ol type="a">
       <li> Find "ost-config.php" and right-click on "Properties".</li>
       <li> Go to Security.</li>
@@ -575,7 +575,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
         
-3. Congrats, hopefully the Osticket app is installed with no errors!
+3.Congrats, hopefully the Osticket app is installed with no errors!
      <ol type="a">
       <li> Browse to your help desk log-in page: http://localhost/osTicket/scp/login.php </li>
       <li> Type in your Email or Username/Password.(Step 8;7D use:user_admin & use:Password1).</li>
