@@ -35,9 +35,13 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
 1.Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
+
 - Note: If you do not have an Azure account, you will need to sign up for one before you can log-in.
+
 2.Once you have successfully logged-in, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
+
 3.You should be able to see the following display:
+
 <p>
 <img src="https://i.imgur.com/zr0sGpt.png" height="80%" width="80%"/>
 </p>
@@ -46,6 +50,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>Step 2: Create a Resource group</h2>
 
 1.Locate the search bar and type "Research groups".
+
 2.To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
    <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
@@ -54,6 +59,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol>
 
 3.After, typing the given specifications click on the box "Review + create".
+
 4.You should be able to see the following display:
 <p>
 <img src="https://i.imgur.com/ILYejQz.png" height="80%" width="80%"/>
@@ -67,7 +73,9 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>Step 3: Create a virtual machine using Azure and some given specifications</h2>
 
 1.Again, click on the search bar and type "Virtual Machines".
+
 2.Click on the "+ Create" button located on the top left-corner by "Switch to classic".
+
 3.Choose the option "Azure virtual machine", enter the following information:
     <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
@@ -82,6 +90,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol>
 
 - Note: After you checkmarked "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm." located at bottom-left corner. Also, after you clicked on the "Review + create" button and review the settings. You should be able to see the following display:
+
 <p>
 <img src="https://i.imgur.com/mFRfIOw.png" height="80%" width="80%"/>
 </p>
@@ -98,6 +107,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol</h2>
 
 1.On the search bar, type "Virtual Machines".
+
 - Note: After you created your VM, you should be able to see the following display:
 
 <p>
@@ -106,7 +116,9 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <p>  
 
 2.Click the blue link "vm-osticket" located under "Name".
+
 3.On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
+
 <p>
 <img src="https://i.imgur.com/6WKUKJ0.png" height="80%" width="80%"/>
 </p>
@@ -116,7 +128,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
  
 5.Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
  
- <p>
+<p>
 <img src="https://i.imgur.com/So0Dn0n.png" height="80%" width="80%"/>
 </p>
 <p>  
@@ -130,6 +142,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <p>  
  
 7.Please wait until your virtual machine logs you in.
+
 8.Then choose the following options for "Choose privacy settings for your device": 
     <ol type="a">
       <li>Location: No </li>
@@ -139,7 +152,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
      <li>Inking and Typing: No</li>
      <li>Advertising ID: No</li>
     </ol>
-9.Click "Accept"
+9.Click "Accept".
 
 <h2>Step 5: Download/Install the following applications on your VM: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62</h2>
 
@@ -157,6 +170,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>After the installation is complete make sure to close it.</li>
       <li> To verify your webserver is up & running, open Microsoft Edge and type on the URL "127.0.0.1".</li>
     </ol>  
+
 - Note: By Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly.
 
 - Image Display of Step 5: 1.D
@@ -166,6 +180,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <p> 
 
 - Image Display of Step 5: 1.E-H
+
 <p>
 <img src="https://i.imgur.com/toQ7vio.png" height="80%" width="80%"/>
 </p>
@@ -197,6 +212,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>On your VM, open Microsoft Edge and paste the following link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view </li>
       <li>Repeat previous instructions from Step 5: 2B, 2C, & 2D for "rewrite_amd64_en-US". </li>
     </ol>
+
 - Note: The purpose of Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation. 
 
 4.Create the directory C:\PHP
@@ -299,11 +315,17 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>Step 6: Open IIS as an Admin & Register PHP from within IIS</h2>
 
 1.At the bottom left corner, click on "Windows" Button.
+
 2.Type "ISS", right-click it and choose the option: "Run as administrator".
+
 3.Double-click "PHP Manager".
+
 4.To enable PHP Manager, under PHP Setup, click on "Register new PHP version".
+
 5.Double-click on "PHP" folder and click on "php-cgi".
+
 6.Go back to vm-osticket Home, by clicking the server "vm-osticket (vm-osticket\labuser)" located at the top-left corner.
+
 7.Then restart the server, under Manage Server, by clicking on "Restart". 
  
 - Note: Opening IIS as an administrator and registering PHP allows the process of PHP files, which are required to run osticket on a Windows server.
