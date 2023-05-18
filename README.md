@@ -61,6 +61,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 3.After, typing the given specifications click on the box "Review + create".
 
 4.You should be able to see the following display:
+
 <p>
 <img src="https://i.imgur.com/ILYejQz.png" height="80%" width="80%"/>
 </p>
@@ -136,6 +137,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 6.Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
 
 - Note: For Windows users click "Yes" to connect to your VM. Observe the following display: 
+
 <p>
 <img src="https://i.imgur.com/xHG3t9h.png" height="80%" width="80%"/>
 </p>
@@ -173,13 +175,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 - Note: By Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly.
 
-- Image Display of Step 5: 1.D
+Image Display of Step 5: 1.D
+
 <p>
 <img src="https://i.imgur.com/nhrzyaE.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-- Image Display of Step 5: 1.E-H
+Image Display of Step 5: 1.E-H
 
 <p>
 <img src="https://i.imgur.com/toQ7vio.png" height="80%" width="80%"/>
@@ -195,13 +198,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol>
 - Note: Note: You need to download and install PHP Manager for IIS when using osticket system because it is required for osticket to run properly.
 
-- Image Display of Step 5: 2.A 
+Image Display of Step 5: 2.A 
+
 <p>
 <img src="https://i.imgur.com/CkmZM9S.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-- Image Display of Step 5: 2.A
+Image Display of Step 5: 2.A
+
 <p>
 <img src="https://i.imgur.com/KhtmG5X.png" height="80%" width="80%"/>
 </p>
@@ -225,7 +230,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
   
 - Note: The purpose of "PHP" folder within C:\PHP is to unzip the contents of the following program: PHP 7.3.8.
 
-- Image Display of Step 5: 4.A-D
+Image Display of Step 5: 4.A-D
+
 <p>
 <img src="https://i.imgur.com/e0JaClP.png" height="80%" width="80%"/>
 </p>
@@ -245,25 +251,29 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     
 - Note: You need to download PHP 7.3.8 and unzip the contents into C:\PHP for osticket because it is a requirement for running PHP scripts on your web server.
 
-- Image Display of Step 5: 5.A
+Image Display of Step 5: 5.A
+
 <p>
 <img src="https://i.imgur.com/4xjzlyg.png" height="80%" width="80%"/>
 </p>
 <p> 
  
-- Image Display of Step 5: 5.D
+Image Display of Step 5: 5.D
+
 <p>
 <img src="https://i.imgur.com/fwQJaHW.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-- Image Display of Step 5: 5.F-G
+Image Display of Step 5: 5.F-G
+
 <p>
 <img src="https://i.imgur.com/G9vj0ay.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-- Image Display of Step 5: 5.H
+Image Display of Step 5: 5.H
+
 <p>
 <img src="https://i.imgur.com/fLkULxx.png" height="80%" width="80%"/>
 </p>
@@ -294,19 +304,22 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 - Note: The reason why you need to download and install this specific version of MySQL is because osticket was designed to work with it. Installing a different version of MySQL or a different database management system altogether may cause compatibility issues and may prevent osticket from functioning properly.
 
-- Image Display of Step 5: 7.D
+Image Display of Step 5: 7.D
+
 <p>
 <img src="https://i.imgur.com/KxlTZ32.png" height="80%" width="80%"/>
 </p>
 <p> 
  
-- Image Display of Step 5: 7.H
+Image Display of Step 5: 7.H
+
 <p>
 <img src="https://i.imgur.com/6NlwNgo.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-- Image Display of Step 5: 7.I-J
+Image Display of Step 5: 7.I-J
+
 <p>
 <img src="https://i.imgur.com/feFhhht.png" height="80%" width="80%"/>
 </p>
@@ -330,25 +343,29 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
  
 - Note: Opening IIS as an administrator and registering PHP allows the process of PHP files, which are required to run osticket on a Windows server.
 
-- Image Display of Step 6.3 
+Image Display of Step 6.3 
+
 <p>
 <img src="https://i.imgur.com/04zJAen.png" height="80%" width="80%"/>
 </p>
 <p> 
 
-- Image Display of Step 6.4
+Image Display of Step 6.4
+
 <p>
 <img src="https://i.imgur.com/OwhmRH5.png" height="80%" width="80%"/>
 </p>
 <p> 
  
-- Image Display of Step 6.5 
+Image Display of Step 6.5 
+
 <p>
 <img src="https://i.imgur.com/kWoXKd4.png" height="80%" width="80%"/>
 </p>
 <p> 
  
-- Image Display of Step 6.7
+Image Display of Step 6.7
+
 <p>
 <img src="https://i.imgur.com/ete7bMT.png" height="80%" width="80%"/>
 </p>
@@ -358,7 +375,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 1.On your VM, download osTicket-v1.15.8.zip from the following link: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
-- Image Display of Step 7.1
+Image Display of Step 7.1
+
 <p>
 <img src="https://i.imgur.com/7YQBvuQ.png" height="80%" width="80%"/>
 </p>
@@ -376,19 +394,22 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Within the wwwroot file folder, rename "upload" to "osTicket".</li>
     </ol>
 
-- Image Display of Step 8: 1.A-B
+Image Display of Step 8: 1.A-B
+
 <p>
 <img src="https://i.imgur.com/JkpPG8Y.png" height="80%" width="80%"/>
 </p>
 <p> 
     
-- Image Display of Step 8: 1.E
+Image Display of Step 8: 1.E
+
 <p>
 <img src="https://i.imgur.com/5reVM7j.png" height="80%" width="80%"/>
 </p>
 <p>     
 
-- Image Display of Step 8: 1.F
+Image Display of Step 8: 1.F
+
 <p>
 <img src="https://i.imgur.com/thKmnkv.png" height="80%" width="80%"/>
 </p>
@@ -403,13 +424,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
     </ol> 
 - Note: If you don't have the osTicket Installer browser open, you can re-do all of your steps from the beginning or troubleshoot the issue.
 
-- Image Display of Step 8: 2.B-C
+Image Display of Step 8: 2.B-C
+
 <p>
 <img src="https://i.imgur.com/ZnH6Utr.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-- Image Display of Step 8: 2.D
+Image Display of Step 8: 2.D
+
 <p>
 <img src="https://i.imgur.com/KWHaPpm.png" height="80%" width="80%"/>
 </p>
@@ -426,25 +449,29 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Return to Osticket Installer browser and refresh it, and observe the changes.</li>
     </ol> 
   
-- Image Display of Step 8: 3.A-C
+Image Display of Step 8: 3.A-C
+
 <p>
 <img src="https://i.imgur.com/dIaq0iA.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-- Image Display of Step 8: 3.D
+Image Display of Step 8: 3.D
+
 <p>
 <img src="https://i.imgur.com/UntQY8Z.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-- Image Display of Step 8: 3.E-F
+Image Display of Step 8: 3.E-F
+
 <p>
 <img src="https://i.imgur.com/myYNbpc.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-- Image Display of Step 8: 3.G
+Image Display of Step 8: 3.G
+
 <p>
 <img src="https://i.imgur.com/3iL3x8a.png" height="80%" width="80%"/>
 </p>
@@ -456,7 +483,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Scroll down to find "ost-sampleconfig.php" and right-click it to rename it: "ost-config.php".</li>
     </ol> 
 
-- Image Display of Step 8: 4.A-B
+Image Display of Step 8: 4.A-B
+
 <p>
 <img src="https://i.imgur.com/NoqPtKe.png" height="80%" width="80%"/>
 </p>
@@ -475,25 +503,29 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Click "Okay" for "Advanced Security Settings" and click "Apply".</li>
     </ol> 
  
-- Image Display of Step 8: 5.A-B
+Image Display of Step 8: 5.A-B
+
 <p>
 <img src="https://i.imgur.com/kAXlfDm.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-- Image Display of Step 8: 5.C-D
+Image Display of Step 8: 5.C-D
+
 <p>
 <img src="https://i.imgur.com/Oe6YUKK.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-- Image Display of Step 8: 5.E
+Image Display of Step 8: 5.E
+
 <p>
 <img src="https://i.imgur.com/SZHE5fi.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-- Image Display of Step 8: 5.F-G
+Image Display of Step 8: 5.F-G
+
 <p>
 <img src="https://i.imgur.com/4kY9rIX.png" height="80%" width="80%"/>
 </p>
@@ -512,13 +544,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> On the panel "Create database", Type "osTicket" on "Name". Click "Okay" </li>
     </ol> 
  
-- Image Display of Step 8: 6.E-G
+Image Display of Step 8: 6.E-G
+
 <p>
 <img src="https://i.imgur.com/e8ADuIK.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-- Image Display of Step 8: 6.H-I
+Image Display of Step 8: 6.H-I
+
 <p>
 <img src="https://i.imgur.com/Q94mvv5.png" height="80%" width="80%"/>
 </p>
@@ -537,13 +571,15 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 - Note: Make sure you save Username & Password on your notepad just in case if you need it later on.
 
-- Image Display of Step 8: 7.D-F
+Image Display of Step 8: 7.D-F
+
 <p>
 <img src="https://i.imgur.com/j0vYVe9.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-- Image Display of Step 8: 7.G
+Image Display of Step 8: 7.G
+
 <p>
 <img src="https://i.imgur.com/cNBQVcy.png" height="80%" width="80%"/>
 </p>
@@ -557,7 +593,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Right-click on "setup" and "Delete".</li>
      </ol> 
 
-- Image Display of Step 9: 1.A-B
+Image Display of Step 9: 1.A-B
+
 <p>
 <img src="https://i.imgur.com/AWaXU6W.png" height="80%" width="80%"/>
 </p>
@@ -573,25 +610,29 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Click "Okay". Then "Apply". Afterwards, "Okay". </li>
      </ol> 
 
-- Image Display of Step 9: 2.A
+Image Display of Step 9: 2.A
+
 <p>
 <img src="https://i.imgur.com/v3namCt.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-- Image Display of Step 9: 2.B-C
+Image Display of Step 9: 2.B-C
+
 <p>
 <img src="https://i.imgur.com/tlLlGAl.png" height="80%" width="80%"/>
 </p>
 <p>  
     
-- Image Display of Step 9: 2.D
+Image Display of Step 9: 2.D
+
 <p>
 <img src="https://i.imgur.com/PyUvRvr.png" height="80%" width="80%"/>
 </p>
 <p>     
  
-- Image Display of Step 9: 2.E
+Image Display of Step 9: 2.E
+
 <p>
 <img src="https://i.imgur.com/kOq4aOQ.png" height="80%" width="80%"/>
 </p>
@@ -604,7 +645,8 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li> Congratulations of having it working!</li>
     </ol> 
 
-- Image Display of Step 9: 3.A-C
+Image Display of Step 9: 3.A-C
+
 <p>
 <img src="https://i.imgur.com/0Ysb1YX.png" height="80%" width="80%"/>
 </p>
