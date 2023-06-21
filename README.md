@@ -69,7 +69,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 5.Then click "Create" located at the bottom left corner.
  
-- Note: By creating a Resource group, it would be like creating a container that will hold all of your related resources in one centralized location.
+- Note: By creating a Resource group, it would be like creating a folder that will hold all of your related resources in one centralized location.
 
 <h2>Step 3: Create a virtual machine using Azure and some given specifications</h2>
 
