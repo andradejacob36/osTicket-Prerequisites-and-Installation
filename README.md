@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket: Prerequisites and Installation</h1>
-This tutorial will demonstrate how to build a help desk system using osTicket. Before installing it, this tutorial will also teach you how to set-up the pre-requirement applications<br/>
+This tutorial will demonstrate how to build a help desk system using osTicket. Before installing it, this tutorial will also teach you how to set up the pre-requirement applications<br/>
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,22 +23,22 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: You need to authenticate and authorize yourself by logging into the Azure portal.
-- Step 2: Create a Resource group
+- Step 2: Create a Resource Group
 - Step 3: Create a virtual machine using Azure and some given specifications
 - Step 4: Configure remote access to the virtual machine using Remote Desktop Protocol
 - Step 5: Download/Install these applications on your VM: CGI on IIS, PHP Manager, Rewrite Module, PHP 7.3.8, VC_redist.x86.exe, & MySQL 5.5.62
 - Step 6: Open IIS as an Admin & Register PHP from within IIS
 - Step 7: Install osTicket on the VM
 - Step 8: Configure the osTicket with the necessary settings, including email, database, and help desk settings
-- Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials
+- Step 9: Navigate to the osTicket web interface and log in using the administrator credentials
 
 <h2>Step 1: You need to authenticate and authorize yourself by logging into the Azure portal</h2>
  
-1.Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
+1.Go to the Azure Portal website (https://portal.azure.com/) and sign in with your Azure account credentials. 
 
-- Note: If you do not have an Azure account, you will need to sign up for one before you can log-in.
+- Note: If you do not have an Azure account, you must sign up for one before you can log in.
 
-2.Once you have successfully logged-in, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
+2.Once you have successfully logged in, you will be redirected to the Azure portal dashboard where you can create and manage your resources. 
 
 3.You should be able to see the following display:
 
@@ -51,14 +51,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 1.Locate the search bar and type "Research groups".
 
-2.To create a new item, click on the "+ Create" button located in the top left-corner next to the "Manage View" option.
+2.To create a new item, click on the "+ Create" button in the top left corner next to the "Manage View" option.
    <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Create a name of your resource group (Use: RG-osTicket).</li>
       <li>Choose a region to deploy the virtual machine to (For Ex: West US 3).</li>   
     </ol>
 
-3.After, typing the given specifications click on the box "Review + create".
+3.After typing the specifications, click on the box "Review + create".
 
 4.You should be able to see the following display:
 
@@ -67,7 +67,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>   
 
-5.Then click "Create" located at the bottom left-corner.
+5.Then click "Create" located at the bottom left corner.
  
 - Note: By creating a Resource group, it would be like creating a container that will hold all of your related resources in one centralized location.
 
@@ -75,12 +75,12 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 
 1.Again, click on the search bar and type "Virtual Machines".
 
-2.Click on the "+ Create" button located on the top left-corner by "Switch to classic".
+2.Click on the "+ Create" button located in the top left corner by "Switch to the classic".
 
-3.Choose the option "Azure virtual machine", enter the following information:
+3.Choose the option "Azure virtual machine", and enter the following information:
     <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
-      <li>Create a name for resource group (Use: RG-osTicket).</li>
+      <li>Create a name for the resource group (Use: RG-osTicket).</li>
       <li>Enter a unique name for the virtual machine (Use: vm-osticket).</li>
       <li>For "Image" use: Windows 10 Pro, version 21H2 (free services eligible). </li>
       <li>For "Size" use: Standard_D4s_v3 - 4 vcpus, 16 GiB memory. </li>
@@ -90,14 +90,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>For "Select inbound ports" use: RDP 3389.</li>
     </ol>
 
-- Note: After you checkmarked "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm." located at bottom-left corner. Also, after you clicked on the "Review + create" button and review the settings. You should be able to see the following display:
+- Note: After you check-marked "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm." located at the bottom-left corner. Also, after you clicked on the "Review + create" button and review the settings. You should be able to see the following display:
 
 <p>
 <img src="https://i.imgur.com/mFRfIOw.png" height="80%" width="80%"/>
 </p>
 <p>  
     
-- Note: Remember to keep your username and password you created in your notepad, as you will need them later. Also, verify that your information is correct!
+- Note: Remember to keep the username and password you created in your notepad, as you will need them later. Also, verify that your information is correct!
 
 4.Click on the "Create" button to create the virtual machine. 
 
@@ -134,7 +134,7 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
 </p>
 <p>  
  
-6.Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
+6.Afterwards, make sure to log in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
 
 - Note: For Windows users click "Yes" to connect to your VM. Observe the following display: 
 
@@ -163,14 +163,14 @@ This tutorial will demonstrate how to build a help desk system using osTicket. B
       <li>Right-click the "Start" Button (Windows logo) and click "Run"</li>
       <li>Type "control" for the "Run" panel and click "OK"</li>
       <li>On the Control Panel, do not click "Uninstall a program". Click "Programs".  </li>
-      <li>Under "Programs and features", click "Turn Windows features on or off"</li>
+      <li>Under "Programs and Features", click "Turn Windows features on or off"</li>
       <li>By checking the box next to it, turn on "Internet Information Services.</li>
       <li>Expand IIS with "+" icon and double-click on "World Wide Web Services".</li>
       <li>Under WWWS, expand "Application Development Features" by double-clicking it.</li>
       <li>Check on the box next "CGI".</li>
       <li>Click "Okay".</li>
       <li>After the installation is complete make sure to close it.</li>
-      <li> To verify your webserver is up & running, open Microsoft Edge and type on the URL "127.0.0.1".</li>
+      <li> To verify your web server is up & running, open Microsoft Edge and type on the URL "127.0.0.1".</li>
     </ol>  
 
 - Note: By Installing/Enabling CGI on IIS, it lets you provide the necessary infrastructure for OSTicket to function correctly. Without CGI, the application would not work properly.
@@ -218,7 +218,7 @@ Image Display of Step 5: 2.A
       <li>Repeat previous instructions from Step 5: 2B, 2C, & 2D for "rewrite_amd64_en-US". </li>
     </ol>
 
-- Note: The purpose of Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation. 
+- Note: The purpose of the Rewrite Module for osticket is to improve the user experience and search engine optimization of your osticket installation. 
 
 4.Create the directory C:\PHP
      <ol type="a">
@@ -327,9 +327,9 @@ Image Display of Step 5: 7.I-J
 
 <h2>Step 6: Open IIS as an Admin & Register PHP from within IIS</h2>
 
-1.At the bottom left corner, click on "Windows" Button.
+1.At the bottom left corner, click on the "Windows" Button.
 
-2.Type "ISS", right-click it and choose the option: "Run as administrator".
+2.Type "ISS", right-click it, and choose the option: "Run as administrator".
 
 3.Double-click "PHP Manager".
 
@@ -419,7 +419,7 @@ Image Display of Step 8: 1.F
      <ol type="a">
       <li> To refresh it again, go back to the Internet Information Services(IIS) Manager App and repeat Step 6: 6 & 7.</li>
       <li> On the upper left corner, under "Connections", double-click on "Sites", "Default Web Site", & then "os-Ticket" file.</li>
-      <li> Then on the upper-right corner, under "Manage Folder", click on "Browse *:80".</li>
+      <li> Then in the upper-right corner, under "Manage Folder", click on "Browse *:80".</li>
       <li> After clicking "Browse *:80", you should have the following display open:</li>
     </ol> 
 - Note: If you don't have the osTicket Installer browser open, you can re-do all of your steps from the beginning or troubleshoot the issue.
@@ -445,8 +445,8 @@ Image Display of Step 8: 2.D
       <li> Double-click on "PHP Manager".</li>
       <li> Under PHP Extensions, click on "Enable or disable an extension".</li>
       <li> Look for php_imap.dll, php_intl.dll, & php_opcache.dll</li>
-      <li> One by one enable them by clicking "Enable" located, under "actions", at the upper right corner.</li>
-      <li> Return to Osticket Installer browser and refresh it, and observe the changes.</li>
+      <li> One by one enable them by clicking "Enable" located, under "actions", in the upper right corner.</li>
+      <li> Return to osticket Installer browser and refresh it, and observe the changes.</li>
     </ol> 
   
 Image Display of Step 8: 3.A-C
@@ -492,7 +492,7 @@ Image Display of Step 8: 4.A-B
      
 5.Assign Permissions: ost-config.php
      <ol type="a">
-      <li> Again right-click "ost-config.php" and click on "Properties" and then click to "Security".</li>
+      <li> Again right-click "ost-config.php" click on "Properties" and then click on "Security".</li>
       <li> Below "Permissions for SYSTEM" click on "Advanced".</li>
       <li> Click on "Disable inheritance".</li>
       <li> Click "Remove all inherited permissions from this object".</li>
@@ -535,10 +535,10 @@ Image Display of Step 8: 5.F-G
      <ol type="a">
       <li> On your VM, download it with this link: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit</li>
       <li> Go to "Downloads" on File Explorer. Also, Double-click HeidiSQL.</li>
-      <li> After agreeing "the License Agreement", keep clicking "Next" until you see the "Install" option.</li>
+      <li> After agreeing to "the License Agreement", keep clicking "Next" until you see the "Install" option.</li>
       <li> Click "install". Then, click on "Finish".</li>
-      <li> At bottom left corner click on "New" (Do not click on the down-arrow button).</li>
-      <li> For the "User" use: "root" and for password use: "Password1".</li>
+      <li> At the bottom left corner click on "New" (Do not click on the down-arrow button).</li>
+      <li> For the "User" use: "root" and for the password use: "Password1".</li>
       <li> At the bottom click "Open".</li>
       <li> Right-click on "Unnamed", then to "Create new" and on "Database". </li>
       <li> On the panel "Create database", Type "osTicket" on "Name". Click "Okay" </li>
@@ -569,7 +569,7 @@ Image Display of Step 8: 6.H-I
       <li> If successful you should see the following display: </li>    
     </ol> 
 
-- Note: Make sure you save Username & Password on your notepad just in case if you need it later on.
+- Note: Make sure you save your Username & Password on your notepad just in case you need it later on.
 
 Image Display of Step 8: 7.D-F
 
@@ -585,12 +585,12 @@ Image Display of Step 8: 7.G
 </p>
 <p>  
  
-<h2>Step 9: Navigate to the osTicket web interface and log-in using the administrator credentials</h2>
+<h2>Step 9: Navigate to the osTicket web interface and log in using the administrator credentials</h2>
 
 1.Before you navigate the osTicket web interface, we need to clean Up first.
      <ol type="a">
       <li> Return to "osTicket" folder on File Explorer.</li>
-      <li> Right-click on "setup" and "Delete".</li>
+      <li> Right-click on "Setup" and "Delete".</li>
      </ol> 
 
 Image Display of Step 9: 1.A-B
@@ -605,9 +605,9 @@ Image Display of Step 9: 1.A-B
       <li> Find "ost-config.php" and right-click on "Properties".</li>
       <li> Go to Security.</li>
       <li> Under "Permissions for Everyone", click on "Advanced".</li>
-      <li> Click "Allow Eveyone". Then "Edit".</li>
+      <li> Click "Allow Everyone". Then "Edit".</li>
       <li> Uncheck the following: "Full control", "Modify", & "Write".</li>
-      <li> Click "Okay". Then "Apply". Afterwards, "Okay". </li>
+      <li> Click "Okay". Then "Apply". Afterward, "Okay". </li>
      </ol> 
 
 Image Display of Step 9: 2.A
